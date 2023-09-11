@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="New Actor-Mixer" ID="{B945A41F-DD44-4A1F-830E-D59B4F65373F}" ShortID="579918882">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Test_Sine" ID="{56896C80-0286-4645-A825-860F339CF687}" ShortID="588987602">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Sine" ID="{4C8E442C-35F5-4044-A6BE-003213A6BB38}" ShortID="424341771" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{403C6DA5-5336-47B0-BC17-B97BACCDBBDD}" ShortID="903447723">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="SineFrequency"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="New Modulator LFO" ID="{6052E3B0-0431-4FCD-B21C-A98D31A59310}" WorkUnitID="{6D6CC949-3CB0-4588-9384-0CB60B1E47D5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{23E5FCAF-7F61-41AE-856B-55928B2B7A88}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="5"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>440</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>942.23957</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sine" ID="{4C8E442C-35F5-4044-A6BE-003213A6BB38}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

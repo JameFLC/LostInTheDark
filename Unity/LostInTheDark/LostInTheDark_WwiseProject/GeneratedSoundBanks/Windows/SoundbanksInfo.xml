@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6ABA8F2-131A-EE5E-E4C6-0444CFCE6FD5}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3291379323" Type="User" Language="SFX" Hash="{D40F6656-7DFA-2B7D-CB70-AD98AC175FDD}">
+			<ShortName>TestBank</ShortName>
+			<Path>TestBank.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="424341771" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2929582682" Name="Play_Test_Sine" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="424341771"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2259E3DE-0B67-CDCB-0828-D31B582E84BD}</FileHash>
+</SoundBanksInfo>

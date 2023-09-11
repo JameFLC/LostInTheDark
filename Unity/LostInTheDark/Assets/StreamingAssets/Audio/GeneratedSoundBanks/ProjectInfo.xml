@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="LostInTheDark_WwiseProject" GUID="{E3892E30-E1F2-412C-8D72-BFDC8FBEE8A8}" Generator="2022.1.7.8290"/>
+	<CacheRoot>../../../../LostInTheDark_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{37A80B50-FEC1-4893-AF75-87F2777DB8CB}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../LostInTheDark_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{456C9A93-09E9-4326-A515-AD7673C8ECB6}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../LostInTheDark_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{487D7748-609B-4900-BB47-3FF355207ABA}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{B97536FE-DAC0-A855-C87F-EF6EF522C946}</FileHash>
+</ProjectInfo>

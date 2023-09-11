@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2929582682	Play_Test_Sine			\Default Work Unit\Play_Test_Sine	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	1053605932	New Modulator LFO			\Default Work Unit\New Modulator LFO	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	424341771	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Test_Sine\Sine	
+
