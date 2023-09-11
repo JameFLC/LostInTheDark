@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    [SerializeField] AK.Wwise.Event _menuMusic = null;
+    [SerializeField] AK.Wwise.Event _Lvl1Music = null;
+    [SerializeField] AK.Wwise.Event _ambSound = null;
+    
     private static AudioManager instance;
     public static AudioManager Instance => instance;
 
@@ -15,14 +19,8 @@ public class AudioManager : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-    [SerializeField] AK.Wwise.Event _menuMusic = null;
-    [SerializeField] AK.Wwise.Event _Lvl1Music = null;
-    [SerializeField] AK.Wwise.Event _ambSound = null;
-    
-
 
     // Musics
-
     public void MusicMenu(bool play)
     {
         if (play)
@@ -49,7 +47,6 @@ public class AudioManager : MonoBehaviour
 
     }
 
-
     // Amb
     public void AmbSound(bool play)
     {
@@ -63,6 +60,4 @@ public class AudioManager : MonoBehaviour
             _ambSound.Stop(gameObject, 200);
         }
     }
-
-
 }
