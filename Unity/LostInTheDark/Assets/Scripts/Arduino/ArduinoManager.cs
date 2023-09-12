@@ -10,11 +10,15 @@ public class ArduinoManager : MonoBehaviour
     [SerializeField]
     private int BaudRate = 9600;
 
+    [SerializeField] AK.Wwise.Event _lfoSound = null;
+
     Thread IOThread;
     private SerialPort sp;
     private string incomingMsg = "";
     private string outgoingMsg = "";
 
+
+    private bool isOn = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +32,12 @@ public class ArduinoManager : MonoBehaviour
         if (incomingMsg != "")
         {
             Debug.Log(incomingMsg);
+        }
+
+        if ((incomingMsg != "") != isOn)
+        {
+            isOn = incomingMsg != "";
+            AudioSwitch(isOn);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -55,6 +65,20 @@ public class ArduinoManager : MonoBehaviour
             Thread.Sleep(200);
         }
     }
+
+    public void AudioSwitch(bool play)
+    {
+        if (play)
+        {
+            _lfoSound.Post(gameObject);
+            AkSoundEngine.PostEvent("Play_Test_Sine",this.gameObject);
+        }
+        else
+        {
+            AkSoundEngine.StopAll(this.gameObject);
+        }
+    }
+
 
     // Close the thread and the Serial Port connection
     private void OnDestroy()
