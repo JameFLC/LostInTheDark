@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -7,7 +5,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AK.Wwise.Event _menuMusic = null;
     [SerializeField] AK.Wwise.Event _Lvl1Music = null;
     [SerializeField] AK.Wwise.Event _ambSound = null;
-    
+
     private static AudioManager instance;
     public static AudioManager Instance => instance;
 
@@ -31,7 +29,7 @@ public class AudioManager : MonoBehaviour
         {
             _menuMusic.Stop(gameObject, 200);
         }
-        
+
     }
 
     public void Lvl1Music(bool play)
@@ -44,7 +42,6 @@ public class AudioManager : MonoBehaviour
         {
             _Lvl1Music.Stop(gameObject, 200);
         }
-
     }
 
     // Amb
