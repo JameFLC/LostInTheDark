@@ -4,14 +4,21 @@ using System.Threading;
 
 public class ArduinoManager : MonoBehaviour
 {
-    Thread IOThread = new Thread(DataThread);
-    private static SerialPort sp;
-    private static string incomingMsg = "";
-    private static string outgoingMsg = "";
+    [SerializeField]
+    private string PortName = "COM6";
 
-    private static void DataThread()
+    [SerializeField]
+    private int BaudRate = 9600;
+
+    Thread IOThread;
+    private SerialPort sp;
+    private string incomingMsg = "";
+    private string outgoingMsg = "";
+
+    // Responsible for data streaming management
+    private void DataThread()
     {
-        sp = new SerialPort("COM6", 9600);
+        sp = new SerialPort(PortName, BaudRate); // Arduino is connected to COM6, with 9600 baud rate.
         sp.Open();
 
         while (true)
@@ -19,6 +26,7 @@ public class ArduinoManager : MonoBehaviour
             if (outgoingMsg != "")
             {
                 sp.Write(outgoingMsg);
+                /*Debug.Log(outgoingMsg);*/
                 outgoingMsg = "";
             }
 
@@ -27,15 +35,10 @@ public class ArduinoManager : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-        IOThread.Abort();
-        sp.Close();
-    }
-
     // Start is called before the first frame update
     void Start()
     {
+        IOThread = new Thread(DataThread);
         IOThread.Start();
     }
 
@@ -51,5 +54,12 @@ public class ArduinoManager : MonoBehaviour
             outgoingMsg = "0";
         else if (Input.GetKeyDown(KeyCode.Alpha2))
             outgoingMsg = "1";
+    }
+
+    // Close the thread and the Serial Port connection
+    private void OnDestroy()
+    {
+        IOThread.Abort();
+        sp.Close();
     }
 }
