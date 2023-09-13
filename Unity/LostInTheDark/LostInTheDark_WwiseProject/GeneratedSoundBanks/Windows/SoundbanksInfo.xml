@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{36EBB845-515D-0A36-58FD-F94B6CBD3554}">
+		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{BC7BBF54-FC65-6BD3-9C4C-DF1BB535B808}">
 			<ShortName>amb_serpent_vigne</ShortName>
 			<Path>amb_serpent_vigne.bnk</Path>
 			<Media>
@@ -89,6 +89,10 @@
 					<ShortName>sfx_ambs_beds_spawn_03.wav</ShortName>
 					<CachePath>SFX/sfx_ambs_beds_spawn_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="859078297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_serpent.wav</ShortName>
+					<CachePath>SFX/vx_serpent_10C4C929.wem</CachePath>
+				</File>
 				<File Id="869424325" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_09.wav</ShortName>
 					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_09_10C4C929.wem</CachePath>
@@ -124,6 +128,7 @@
 						<MediaRef Id="719365444"/>
 						<MediaRef Id="782858527"/>
 						<MediaRef Id="822970736"/>
+						<MediaRef Id="859078297"/>
 						<MediaRef Id="869424325"/>
 						<MediaRef Id="911760592"/>
 						<MediaRef Id="969526211"/>
@@ -134,10 +139,14 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{A4D211D7-6E6D-44D6-1B3A-29EA07E6F565}">
+		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{3EEBBC76-CD2C-1996-B384-09419C9ED0E5}">
 			<ShortName>amb_gate</ShortName>
 			<Path>amb_gate.bnk</Path>
 			<Media>
+				<File Id="678235024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_gate.wav</ShortName>
+					<CachePath>SFX/vx_gate_10C4C929.wem</CachePath>
+				</File>
 				<File Id="953657218" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_ambs_beds_gate.wav</ShortName>
 					<CachePath>SFX/sfx_ambs_beds_gate_D79FB2B7.wem</CachePath>
@@ -146,6 +155,7 @@
 			<Events>
 				<Event Id="1087016108" Name="Play_amb_gate" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="678235024"/>
 						<MediaRef Id="953657218"/>
 					</MediaRefs>
 				</Event>
@@ -194,7 +204,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{A355E26B-C8E1-C908-220A-469FB06947C8}">
+		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{C00AAB49-6638-69FD-B367-8C85880B5D5B}">
 			<ShortName>amb_maldirach_swamps</ShortName>
 			<Path>amb_maldirach_swamps.bnk</Path>
 			<Media>
@@ -278,6 +288,10 @@
 					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_11.wav</ShortName>
 					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_11_10C4C929.wem</CachePath>
 				</File>
+				<File Id="799348114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_maldirach.wav</ShortName>
+					<CachePath>SFX/vx_maldirach_10C4C929.wem</CachePath>
+				</File>
 				<File Id="928777382" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_04.wav</ShortName>
 					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_04_10C4C929.wem</CachePath>
@@ -314,6 +328,7 @@
 						<MediaRef Id="708599131"/>
 						<MediaRef Id="744772859"/>
 						<MediaRef Id="792248509"/>
+						<MediaRef Id="799348114"/>
 						<MediaRef Id="928777382"/>
 						<MediaRef Id="931234372"/>
 						<MediaRef Id="989703608"/>
@@ -324,20 +339,86 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{83244240-F773-BF88-B2C2-FCD6450899AC}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{1F0C019D-0057-72C8-18EA-7F661049B292}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
+				<File Id="96882531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_mort_reine.wav</ShortName>
+					<CachePath>SFX/vx_mort_reine_10C4C929.wem</CachePath>
+				</File>
+				<File Id="114028583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_fin.wav</ShortName>
+					<CachePath>SFX/vx_fin_10C4C929.wem</CachePath>
+				</File>
+				<File Id="269972835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_mort_purulent.wav</ShortName>
+					<CachePath>SFX/vx_mort_purulent_10C4C929.wem</CachePath>
+				</File>
+				<File Id="368416484" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_mort_marais_hurlant.wav</ShortName>
+					<CachePath>SFX/vx_mort_marais_hurlant_10C4C929.wem</CachePath>
+				</File>
 				<File Id="380692969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_death_generic.wav</ShortName>
 					<CachePath>SFX/ui_death_generic_10C4C929.wem</CachePath>
+				</File>
+				<File Id="442051355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_mort_ossekine.wav</ShortName>
+					<CachePath>SFX/vx_mort_ossekine_10C4C929.wem</CachePath>
+				</File>
+				<File Id="513886967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_mort_carniviste.wav</ShortName>
+					<CachePath>SFX/vx_mort_carniviste_10C4C929.wem</CachePath>
 				</File>
 				<File Id="530292196" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_death_reine_gouillante.wav</ShortName>
 					<CachePath>SFX/ui_death_reine_gouillante_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1058606704" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_mort_etoile.wav</ShortName>
+					<CachePath>SFX/vx_mort_etoile_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="523833035" Name="Play_mort_carniviste" DurationType="OneShot" DurationMin="16.827375" DurationMax="16.827375">
+					<MediaRefs>
+						<MediaRef Id="513886967"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3891432493" Name="Play_mort_etoile" DurationType="OneShot" DurationMin="21.167604" DurationMax="21.167604">
+					<MediaRefs>
+						<MediaRef Id="1058606704"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3559343897" Name="Play_mort_marais_hurlant" DurationType="OneShot" DurationMin="20.924812" DurationMax="20.924812">
+					<MediaRefs>
+						<MediaRef Id="368416484"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="474815886" Name="Play_mort_ossekine" DurationType="OneShot" DurationMin="23.678188" DurationMax="23.678188">
+					<MediaRefs>
+						<MediaRef Id="442051355"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="653941082" Name="Play_mort_purulent" DurationType="OneShot" DurationMin="25.275478" DurationMax="25.275478">
+					<MediaRefs>
+						<MediaRef Id="269972835"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4261279278" Name="Play_mort_reine" DurationType="OneShot" DurationMin="17.707853" DurationMax="17.707853">
+					<MediaRefs>
+						<MediaRef Id="96882531"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="723123881" Name="Play_ui_death_carnivistes" DurationType="OneShot" DurationMin="4.4179583" DurationMax="4.4179583">
+					<MediaRefs>
+						<MediaRef Id="530292196"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="523833035" Name="Play_mort_carniviste"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="3490999669" Name="Play_ui_death_generic" DurationType="OneShot" DurationMin="6.5164165" DurationMax="6.5164165">
 					<MediaRefs>
 						<MediaRef Id="380692969"/>
@@ -346,6 +427,14 @@
 				<Event Id="1069451164" Name="Play_ui_death_reine_gouillante" DurationType="OneShot" DurationMin="4.4179583" DurationMax="4.4179583">
 					<MediaRefs>
 						<MediaRef Id="530292196"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="4261279278" Name="Play_mort_reine"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1770697806" Name="Play_vx_fin" DurationType="OneShot" DurationMin="21.783688" DurationMax="21.783688">
+					<MediaRefs>
+						<MediaRef Id="114028583"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -375,7 +464,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{03C453CC-5B3B-2A66-4BA9-028BBA9D10A9}">
+		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{3EAF195E-3116-BA46-D72C-04DF4A6E315E}">
 			<ShortName>amb_moon_shadow</ShortName>
 			<Path>amb_moon_shadow.bnk</Path>
 			<Media>
@@ -403,6 +492,10 @@
 					<ShortName>Prem_sfx_ambs_beds_moon_shadow_04.wav</ShortName>
 					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="517448208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_clairiere.wav</ShortName>
+					<CachePath>SFX/vx_clairiere_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1072963312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Prem_sfx_ambs_beds_moon_shadow_06.wav</ShortName>
 					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_06_10C4C929.wem</CachePath>
@@ -417,6 +510,7 @@
 						<MediaRef Id="359600213"/>
 						<MediaRef Id="398261116"/>
 						<MediaRef Id="460591737"/>
+						<MediaRef Id="517448208"/>
 						<MediaRef Id="1072963312"/>
 					</MediaRefs>
 				</Event>
@@ -457,7 +551,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{6B693018-0479-337E-3BAC-45B999F592FB}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{4E19046E-63FD-79C2-53FD-EB6BEEFFC8D9}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -499,7 +593,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{AF50F419-3AB0-3FFE-9869-E9DD4031D7F6}">
+		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{8429107E-E179-9B56-CDDF-DD742615AEA9}">
 			<ShortName>amb_howling_swamps</ShortName>
 			<Path>amb_howling_swamps.bnk</Path>
 			<Media>
@@ -550,6 +644,10 @@
 				<File Id="272695432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_02.wav</ShortName>
 					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="274598695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vx_marais hurlants.wav</ShortName>
+					<CachePath>SFX/vx_marais hurlants_10C4C929.wem</CachePath>
 				</File>
 				<File Id="280909828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_03.wav</ShortName>
@@ -651,6 +749,7 @@
 						<MediaRef Id="255450673"/>
 						<MediaRef Id="258152238"/>
 						<MediaRef Id="272695432"/>
+						<MediaRef Id="274598695"/>
 						<MediaRef Id="280909828"/>
 						<MediaRef Id="347135701"/>
 						<MediaRef Id="399127378"/>
@@ -680,5 +779,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DAD2435E-9198-19A3-C608-B11A750290B4}</FileHash>
+	<FileHash>{CEE2C9D8-B5B2-3B14-A82F-384965F1FC22}</FileHash>
 </SoundBanksInfo>

@@ -5534,6 +5534,357 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Voice" ID="{EE7623BB-8094-4DCD-AB92-95F1B9E69B0A}" ShortID="1008651990">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="vx_clairiere" ID="{DFE67C3C-B223-4138-AB10-F9BA1AC2F526}" ShortID="637541641">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_clairiere" ID="{2EF35EB7-F033-464A-97E4-C0B560186456}">
+									<Language>SFX</Language>
+									<AudioFile>vx_clairiere.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="517448208"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_clairiere" ID="{2EF35EB7-F033-464A-97E4-C0B560186456}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_fin" ID="{02F2FA3D-228F-45F5-95D6-2CE4F635DB4C}" ShortID="191506374">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_fin" ID="{B8D381D3-DB44-44E6-99F2-063703A29E9E}">
+									<Language>SFX</Language>
+									<AudioFile>vx_fin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="114028583"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_fin" ID="{B8D381D3-DB44-44E6-99F2-063703A29E9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_gate" ID="{0707EE4E-6854-4C80-8FA9-718BA31BDEE7}" ShortID="511243632">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_gate" ID="{DAD90C2A-454D-4C01-93AB-E4087C92C226}">
+									<Language>SFX</Language>
+									<AudioFile>vx_gate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678235024"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_gate" ID="{DAD90C2A-454D-4C01-93AB-E4087C92C226}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_intro" ID="{6A6C99C1-90A5-4EE8-8D03-D2FEB3E66C9F}" ShortID="1073442754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_intro" ID="{DC67D709-467E-46B0-AFE3-D260900BC0B3}">
+									<Language>SFX</Language>
+									<AudioFile>vx_intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="607530347"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_intro" ID="{DC67D709-467E-46B0-AFE3-D260900BC0B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_maldirach" ID="{13071BFC-8ED8-4587-8739-B598F4A4919D}" ShortID="193270667">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_maldirach" ID="{20F429CF-A6BD-4725-AA78-AEEAF7911B78}">
+									<Language>SFX</Language>
+									<AudioFile>vx_maldirach.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="799348114"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_maldirach" ID="{20F429CF-A6BD-4725-AA78-AEEAF7911B78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_marais hurlants" ID="{808B52B0-DAE3-4A27-A5BC-F5A0D93F04E2}" ShortID="1008983425">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_marais hurlants" ID="{8C857680-F512-457E-8F84-4B0B270D36E4}">
+									<Language>SFX</Language>
+									<AudioFile>vx_marais hurlants.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="274598695"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_marais hurlants" ID="{8C857680-F512-457E-8F84-4B0B270D36E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_marais_sanglant" ID="{221EF203-B062-4FC3-9F2C-84B0E0080D2C}" ShortID="491152078">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_marais_sanglant" ID="{6AE39B1C-293E-41E0-888F-20172CC9AC45}">
+									<Language>SFX</Language>
+									<AudioFile>vx_marais_sanglant.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584709710"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_marais_sanglant" ID="{6AE39B1C-293E-41E0-888F-20172CC9AC45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_mort_carniviste" ID="{2F3441A9-DA38-4D42-9CF3-A35CF67783FA}" ShortID="277038107">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_mort_carniviste" ID="{BFD50EF8-E27C-404C-AD60-93FA93B12D3B}">
+									<Language>SFX</Language>
+									<AudioFile>vx_mort_carniviste.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="513886967"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_mort_carniviste" ID="{BFD50EF8-E27C-404C-AD60-93FA93B12D3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_mort_etoile" ID="{B4DF151B-BC04-4F39-B99C-B88A761572F3}" ShortID="415491398">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_mort_etoile" ID="{686796F5-FD4C-4D8A-B01F-405C916628A2}">
+									<Language>SFX</Language>
+									<AudioFile>vx_mort_etoile.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058606704"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_mort_etoile" ID="{686796F5-FD4C-4D8A-B01F-405C916628A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_mort_marais_hurlant" ID="{4B9CCF6A-FD6E-486B-9D8B-3291DA62DF15}" ShortID="535204484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_mort_marais_hurlant" ID="{E6E60724-63C3-4951-BC01-F1D8567654AD}">
+									<Language>SFX</Language>
+									<AudioFile>vx_mort_marais_hurlant.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="368416484"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_mort_marais_hurlant" ID="{E6E60724-63C3-4951-BC01-F1D8567654AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_mort_ossekine" ID="{D3B7324D-1943-4E50-80DB-151FC3CB3EB6}" ShortID="366753181">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_mort_ossekine" ID="{4005B0BF-DA1B-4C88-9692-2A8767D1692F}">
+									<Language>SFX</Language>
+									<AudioFile>vx_mort_ossekine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="442051355"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_mort_ossekine" ID="{4005B0BF-DA1B-4C88-9692-2A8767D1692F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_mort_purulent" ID="{6D855B58-7D38-454E-997B-6D64189F651E}" ShortID="765683063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_mort_purulent" ID="{30493CF2-34E4-473E-86FC-576575091256}">
+									<Language>SFX</Language>
+									<AudioFile>vx_mort_purulent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="269972835"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_mort_purulent" ID="{30493CF2-34E4-473E-86FC-576575091256}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_mort_reine" ID="{D80E912A-E968-42AE-A160-705158566351}" ShortID="251167889">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_mort_reine" ID="{3CDC0F87-0424-41E8-800F-F14B4F6C20CE}">
+									<Language>SFX</Language>
+									<AudioFile>vx_mort_reine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="96882531"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_mort_reine" ID="{3CDC0F87-0424-41E8-800F-F14B4F6C20CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_serpent" ID="{5982CAC2-BB1F-4B79-A86B-9542A0895463}" ShortID="776366246">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_serpent" ID="{ECFE10AD-0B05-4ADF-BB1E-8F55F1BF18F7}">
+									<Language>SFX</Language>
+									<AudioFile>vx_serpent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859078297"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_serpent" ID="{ECFE10AD-0B05-4ADF-BB1E-8F55F1BF18F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vx_spawn" ID="{F88B4FB3-0452-4592-8394-8F443047D1BD}" ShortID="369093048">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vx_spawn" ID="{FA936C75-0E1C-4FC0-AA6C-5C27B058FAF7}">
+									<Language>SFX</Language>
+									<AudioFile>vx_spawn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="3582198"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vx_spawn" ID="{FA936C75-0E1C-4FC0-AA6C-5C27B058FAF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

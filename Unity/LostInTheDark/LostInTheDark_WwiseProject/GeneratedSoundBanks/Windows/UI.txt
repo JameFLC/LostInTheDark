@@ -1,8 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
+	474815886	Play_mort_ossekine			\Default Work Unit\DarkForest\Voices\Play_mort_ossekine	
+	523833035	Play_mort_carniviste			\Default Work Unit\DarkForest\Voices\Play_mort_carniviste	
+	653941082	Play_mort_purulent			\Default Work Unit\DarkForest\Voices\Play_mort_purulent	
+	723123881	Play_ui_death_carnivistes			\Default Work Unit\DarkForest\UI\Play_ui_death_carnivistes	
 	1069451164	Play_ui_death_reine_gouillante			\Default Work Unit\DarkForest\UI\Play_ui_death_reine_gouillante	
+	1770697806	Play_vx_fin			\Default Work Unit\DarkForest\Voices\Play_vx_fin	
 	3490999669	Play_ui_death_generic			\Default Work Unit\DarkForest\UI\Play_ui_death_generic	
+	3559343897	Play_mort_marais_hurlant			\Default Work Unit\DarkForest\Voices\Play_mort_marais_hurlant	
+	3891432493	Play_mort_etoile			\Default Work Unit\DarkForest\Voices\Play_mort_etoile	
+	4261279278	Play_mort_reine			\Default Work Unit\DarkForest\Voices\Play_mort_reine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	96882531	vx_mort_reine	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_reine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_reine		1556050
+	114028583	vx_fin	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_fin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_fin		4182564
+	269972835	vx_mort_purulent	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_purulent_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_purulent		4564988
+	368416484	vx_mort_marais_hurlant	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_marais_hurlant_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_marais_hurlant		3729660
 	380692969	ui_death_generic	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\ui_death_generic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\death\generic\ui_death_generic		1251248
+	442051355	vx_mort_ossekine	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_ossekine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_ossekine		4258308
+	513886967	vx_mort_carniviste	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_carniviste_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_carniviste		3230952
 	530292196	ui_death_reine_gouillante	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\ui_death_reine_gouillante_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\death\places_identities\ui_death_reine_gouillante		848344
+	1058606704	vx_mort_etoile	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_etoile_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_etoile		3776276
 

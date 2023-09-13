@@ -35,6 +35,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{BFF6F678-3DA7-4B39-AD72-E77DCF1C9C96}" ShortID="633794315">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_clairiere" ID="{DFE67C3C-B223-4138-AB10-F9BA1AC2F526}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_amb_spawn" ID="{3F31E6BE-DAA2-4785-8D47-B83B975DF5EB}">
@@ -47,6 +57,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="beds_spawn" ID="{8EE1F9C7-0CF6-427A-9BB1-C95F5C138DD6}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0EACF136-BEB8-4F5D-A92E-3EDEB71A0602}" ShortID="614402064">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_spawn" ID="{F88B4FB3-0452-4592-8394-8F443047D1BD}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -100,6 +120,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{56D2DBE2-F90E-4D9B-BF22-98D8C76D5A51}" ShortID="1070476794">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_marais_sanglant" ID="{221EF203-B062-4FC3-9F2C-84B0E0080D2C}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_amb_maldirach" ID="{6F71F25F-9C64-4880-A488-28236AA71C9D}">
@@ -122,6 +152,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{0FE24101-94A1-437B-B513-E3A8CA15907B}" ShortID="889357358">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_maldirach" ID="{13071BFC-8ED8-4587-8739-B598F4A4919D}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_amb_gate" ID="{115C8447-8F9B-476D-A8BC-8A0BA2F06267}">
@@ -130,6 +170,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="sfx_ambs_beds_gate" ID="{484F646F-28AB-4983-8F5A-941829654B32}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{095BD02C-E0A8-490A-B8D1-F193FC334D75}" ShortID="159766375">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_gate" ID="{0707EE4E-6854-4C80-8FA9-718BA31BDEE7}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -165,6 +215,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{0D5B06C7-3FD2-46FE-9310-D282B7D210C7}" ShortID="872045528">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_marais hurlants" ID="{808B52B0-DAE3-4A27-A5BC-F5A0D93F04E2}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_serpent_vigne" ID="{DA5125FD-7214-4943-B02A-196F926C2828}">
@@ -187,6 +247,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="os_snake_rattle" ID="{AD8CC68A-04F3-4593-9B25-2D4CBDBED36D}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5F4E7D9F-B0A1-4B0F-98EF-82A49926D146}" ShortID="235689332">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_serpent" ID="{5982CAC2-BB1F-4B79-A86B-9542A0895463}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -250,6 +320,38 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{F3100496-5108-467B-B210-7319FBACFF4D}" ShortID="781370651">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_mort_reine" ID="{E6E657E1-5DC4-4B3B-8F8E-9B833BBCF546}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ui_death_carnivistes" ID="{973A0993-30D0-4DA5-9D5A-EDD8AE3B1CCA}">
+									<ChildrenList>
+										<Action Name="" ID="{CF773AD3-EA83-4A64-A0F0-A8DF34C61B23}" ShortID="976281026">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ui_death_reine_gouillante" ID="{8072FCD8-33B4-49EA-B9CF-3D5D59D5F090}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F4DEF12E-BDCC-47C6-89B4-75EDB4F28005}" ShortID="138247074">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_mort_carniviste" ID="{87D0C6F6-1DF1-4DF6-A623-9084B35D4F0E}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
@@ -295,6 +397,106 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Voices" ID="{403EE590-A8E9-4651-9075-47E138C6C5B1}" ShortID="801095572">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_mort_purulent" ID="{4D021288-421D-4666-81A5-1501A556A865}">
+									<ChildrenList>
+										<Action Name="" ID="{5A5F8981-4E0D-4AFF-81B8-C78AE852C0A6}" ShortID="708352064">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_mort_purulent" ID="{6D855B58-7D38-454E-997B-6D64189F651E}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_mort_reine" ID="{E6E657E1-5DC4-4B3B-8F8E-9B833BBCF546}">
+									<ChildrenList>
+										<Action Name="" ID="{FBA8EC50-BBEE-476B-9D22-013CDADD36D9}" ShortID="12592993">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_mort_reine" ID="{D80E912A-E968-42AE-A160-705158566351}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_mort_etoile" ID="{3C7E8C85-2C85-4006-9447-D46B07B78155}">
+									<ChildrenList>
+										<Action Name="" ID="{5B2B2796-3EC3-4C4E-80C1-5E4F2A80E106}" ShortID="540075962">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_mort_etoile" ID="{B4DF151B-BC04-4F39-B99C-B88A761572F3}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_mort_marais_hurlant" ID="{4A0EF165-859B-42F9-96C7-B2550F21E900}">
+									<ChildrenList>
+										<Action Name="" ID="{7ACDA3A1-3152-4CD6-B461-A9443E80D9A8}" ShortID="125203334">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_mort_marais_hurlant" ID="{4B9CCF6A-FD6E-486B-9D8B-3291DA62DF15}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_mort_ossekine" ID="{A3F83410-D44B-43E3-AE96-CA637B201C87}">
+									<ChildrenList>
+										<Action Name="" ID="{E9BE88B5-E73A-477A-B69E-1E3AE4E194E5}" ShortID="788168569">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_mort_ossekine" ID="{D3B7324D-1943-4E50-80DB-151FC3CB3EB6}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_mort_carniviste" ID="{87D0C6F6-1DF1-4DF6-A623-9084B35D4F0E}">
+									<ChildrenList>
+										<Action Name="" ID="{14D6139A-569F-445F-AFB0-2F4489401985}" ShortID="98508127">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_mort_carniviste" ID="{2F3441A9-DA38-4D42-9CF3-A35CF67783FA}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_vx_fin" ID="{43E482A5-43AA-4DB4-B7A4-91453E7B87F0}">
+									<ChildrenList>
+										<Action Name="" ID="{D5D9F8E7-BC31-4F77-B58C-1D236A586CC8}" ShortID="691754145">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vx_fin" ID="{02F2FA3D-228F-45F5-95D6-2CE4F635DB4C}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

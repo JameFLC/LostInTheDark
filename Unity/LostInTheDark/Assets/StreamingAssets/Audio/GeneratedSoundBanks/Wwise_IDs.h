@@ -17,12 +17,20 @@ namespace AK
         static const AkUniqueID PLAY_AMB_MALDIRACH = 1197993866U;
         static const AkUniqueID PLAY_AMB_MOON_SHADOW = 183445069U;
         static const AkUniqueID PLAY_HOWLING_SWAMPS = 4216740504U;
+        static const AkUniqueID PLAY_MORT_CARNIVISTE = 523833035U;
+        static const AkUniqueID PLAY_MORT_ETOILE = 3891432493U;
+        static const AkUniqueID PLAY_MORT_MARAIS_HURLANT = 3559343897U;
+        static const AkUniqueID PLAY_MORT_OSSEKINE = 474815886U;
+        static const AkUniqueID PLAY_MORT_PURULENT = 653941082U;
+        static const AkUniqueID PLAY_MORT_REINE = 4261279278U;
         static const AkUniqueID PLAY_SERPENT_VIGNE = 872436943U;
         static const AkUniqueID PLAY_SOUND_BITES_HOWLING_SWAMPS = 2105663184U;
         static const AkUniqueID PLAY_SOUND_BITES_REINE_GOUILLANTE = 1411513916U;
         static const AkUniqueID PLAY_TEST_SINE = 2929582682U;
+        static const AkUniqueID PLAY_UI_DEATH_CARNIVISTES = 723123881U;
         static const AkUniqueID PLAY_UI_DEATH_GENERIC = 3490999669U;
         static const AkUniqueID PLAY_UI_DEATH_REINE_GOUILLANTE = 1069451164U;
+        static const AkUniqueID PLAY_VX_FIN = 1770697806U;
         static const AkUniqueID PLAYMUSIC = 417627684U;
     } // namespace EVENTS
 
