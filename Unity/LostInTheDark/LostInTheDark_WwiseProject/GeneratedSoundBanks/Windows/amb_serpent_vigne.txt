@@ -1,6 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
 	872436943	Play_serpent_vigne			\Default Work Unit\DarkForest\Ambs\Play_serpent_vigne	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2915031556	DomiOnTheBoard			\Default Work Unit\DomiOnTheBoard	
+
+State	ID	Name	State Group			Notes
+	678879843	InTheAir	DomiOnTheBoard			
+	748895195	None	DomiOnTheBoard			
+	2371555678	OnBoard	DomiOnTheBoard			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	245989875	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs		
+	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	52538348	sfx_ambs_os_serpent_vigne_snake_rattle_14	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\serpent_vigne\os\os_snake_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_14		19912
 	80259224	sfx_ambs_beds_spawn_01	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\sfx_ambs_beds_spawn_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\serpent_vigne\beds\beds_spawn\sfx_ambs_beds_spawn_01		1922016

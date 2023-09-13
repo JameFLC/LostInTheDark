@@ -1,6 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4216740504	Play_howling_swamps			\Default Work Unit\DarkForest\Ambs\Play_howling_swamps	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2915031556	DomiOnTheBoard			\Default Work Unit\DomiOnTheBoard	
+
+State	ID	Name	State Group			Notes
+	678879843	InTheAir	DomiOnTheBoard			
+	748895195	None	DomiOnTheBoard			
+	2371555678	OnBoard	DomiOnTheBoard			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	245989875	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs		
+	979611914	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs\howling_swamps\os		
+	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16758288	sfx_ambs_beds_bleeding_swamps_liquid_09	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\liquid\sfx_ambs_beds_bleeding_swamps_liquid_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\howling_swamps\beds\beds_liquid\sfx_ambs_beds_bleeding_swamps_liquid_09		1922016
 	24290855	sfx_ambs_os_howling_swamps_ghosts_02	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\os_ghost\sfx_ambs_os_howling_swamps_ghosts_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\howling_swamps\os\os_ghost\sfx_ambs_os_howling_swamps_ghosts_02		394090

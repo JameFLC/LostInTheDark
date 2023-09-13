@@ -16,6 +16,18 @@
 						<State Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{ED362140-D912-4BAD-B336-9E2ECC18B2A5}"/>
+						<State Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+						<State Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

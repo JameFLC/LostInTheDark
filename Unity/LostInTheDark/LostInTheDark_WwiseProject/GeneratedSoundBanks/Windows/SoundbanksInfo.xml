@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{BC7BBF54-FC65-6BD3-9C4C-DF1BB535B808}">
+		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{8EEAB32E-8AA7-E467-D315-9EB8EF10D46E}">
 			<ShortName>amb_serpent_vigne</ShortName>
 			<Path>amb_serpent_vigne.bnk</Path>
 			<Media>
@@ -139,7 +139,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{3EEBBC76-CD2C-1996-B384-09419C9ED0E5}">
+		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{D6E1D0B5-36BF-A7E4-FFCB-508CBCB2F298}">
 			<ShortName>amb_gate</ShortName>
 			<Path>amb_gate.bnk</Path>
 			<Media>
@@ -161,7 +161,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB21382A-6F2C-7479-56B6-98DA5CDFDDBD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D3AB724F-043A-68A7-A8A6-659AC2AC6054}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -202,9 +202,16 @@
 						<State Id="3884274243" Name="explorationState_01"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="2915031556" Name="DomiOnTheBoard">
+					<States>
+						<State Id="678879843" Name="InTheAir"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2371555678" Name="OnBoard"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{C00AAB49-6638-69FD-B367-8C85880B5D5B}">
+		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{FFCCFF0A-5BC9-F253-3CA7-82716874FB51}">
 			<ShortName>amb_maldirach_swamps</ShortName>
 			<Path>amb_maldirach_swamps.bnk</Path>
 			<Media>
@@ -339,7 +346,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{1F0C019D-0057-72C8-18EA-7F661049B292}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{9F3822D4-B1E5-EFD2-A830-B968DB8B6788}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -464,7 +471,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{3EAF195E-3116-BA46-D72C-04DF4A6E315E}">
+		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{F29A2B27-9C86-FE7A-89E2-8CE6086FA9F3}">
 			<ShortName>amb_moon_shadow</ShortName>
 			<Path>amb_moon_shadow.bnk</Path>
 			<Media>
@@ -593,7 +600,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{8429107E-E179-9B56-CDDF-DD742615AEA9}">
+		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{8D9B0755-609E-39E0-51B6-B49803E68C0F}">
 			<ShortName>amb_howling_swamps</ShortName>
 			<Path>amb_howling_swamps.bnk</Path>
 			<Media>
@@ -779,5 +786,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEE2C9D8-B5B2-3B14-A82F-384965F1FC22}</FileHash>
+	<FileHash>{39F1EF2A-099E-A769-E81A-94AB840C4712}</FileHash>
 </SoundBanksInfo>

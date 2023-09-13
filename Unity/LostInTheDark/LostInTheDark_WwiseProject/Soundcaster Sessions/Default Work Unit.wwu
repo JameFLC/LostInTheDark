@@ -44,6 +44,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
 						<CurrentStateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

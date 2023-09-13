@@ -1810,6 +1810,27 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+												<CustomState Name="" ID="{49464362-1C8A-4D64-8CC5-998491E6F788}" ShortID="439659123"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+												<CustomState Name="" ID="{42D3A46E-DBD5-46FD-9298-2CCC6E865A1B}" ShortID="893177677">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</ActorMixer>
 								<ActorMixer Name="beds" ID="{603549E6-2269-4C20-9BEE-EFD16AD931D8}" ShortID="516828311">
 									<ReferenceList>
@@ -3182,6 +3203,27 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+												<CustomState Name="" ID="{9E0E8807-532D-4C62-A0BD-F5CA4B212840}" ShortID="570302501"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+												<CustomState Name="" ID="{BC1BAEF9-861C-44F9-98FB-B553FE46AC3D}" ShortID="979611914">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</ActorMixer>
 								<ActorMixer Name="beds" ID="{5D17756F-CDAF-4F8A-98DC-756829F654BA}" ShortID="61634930">
 									<ReferenceList>
@@ -5377,6 +5419,29 @@
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+								<CustomState Name="" ID="{FFA6EBF6-E330-4948-A35B-24EB5ED84577}" ShortID="396144549"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+								<CustomState Name="" ID="{A042E19F-4850-4DF2-9E85-F17237728DDA}" ShortID="245989875">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="18"/>
+										<Property Name="Lowpass" Type="int16" Value="19"/>
+										<Property Name="Volume" Type="Real64" Value="-4"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{9C75C4C1-E07F-40C6-8D1B-0F9EC108A255}" ShortID="504750079">
 					<PropertyList>
@@ -5538,11 +5603,6 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="18"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -5884,6 +5944,29 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+								<CustomState Name="" ID="{2038A7D3-4FBC-4804-ABB2-C87C2CD0CBE6}" ShortID="511846380"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+								<CustomState Name="" ID="{CB4CEEE8-350D-4F0D-BB02-EA76E423FBD8}" ShortID="995554691">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="43"/>
+										<Property Name="Lowpass" Type="int16" Value="36"/>
+										<Property Name="Volume" Type="Real64" Value="-10"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

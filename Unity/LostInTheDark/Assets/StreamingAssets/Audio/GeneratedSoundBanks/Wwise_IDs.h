@@ -36,6 +36,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace DOMIONTHEBOARD
+        {
+            static const AkUniqueID GROUP = 2915031556U;
+
+            namespace STATE
+            {
+                static const AkUniqueID INTHEAIR = 678879843U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID ONBOARD = 2371555678U;
+            } // namespace STATE
+        } // namespace DOMIONTHEBOARD
+
         namespace MUSICSTATE
         {
             static const AkUniqueID GROUP = 1021618141U;
