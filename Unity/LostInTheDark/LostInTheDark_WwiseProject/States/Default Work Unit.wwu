@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{11C46374-0553-469B-A486-E847A76CD1BF}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{11C46374-0553-469B-A486-E847A76CD1BF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{11C46374-0553-469B-A486-E847A76CD1BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{D43E08FE-E1FA-41F4-958F-C110D5AB530A}"/>
+						<State Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+						<State Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+						<State Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

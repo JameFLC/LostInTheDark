@@ -107,6 +107,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 0a612a7b62372634aa9a8062655e984b, type: 2}
+  Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ad1bbc65d2da5ae48b936c6d27ff4c2b, type: 2}
   _Music:
     idInternal: 0
     valueGuidInternal: 
@@ -159,3 +163,21 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 36a531dbf18027146947a9e875f443c0, type: 2}
+  MusicState_01:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c9f176455d1490647ad63cda55b4b809, type: 2}
+  MusicState_02:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a1cf54d53b7cbaf48a4c94b0c5738522, type: 2}
+  MusicState_03:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f540d59b36468bb41905cfe5163eac40, type: 2}

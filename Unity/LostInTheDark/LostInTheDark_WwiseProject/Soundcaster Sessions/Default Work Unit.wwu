@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PlayMusic" ID="{D69C880D-506D-4AA3-917A-E1B12622D91A}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_amb_maldirach" ID="{6F71F25F-9C64-4880-A488-28236AA71C9D}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -39,7 +43,9 @@
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
