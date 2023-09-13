@@ -56,27 +56,6 @@ public class ArduinoManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        IOThread = new Thread(DataThread);
-        IOThread.Start();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (incomingMsg != "")
-        {
-            Debug.Log(incomingMsg);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-            outgoingMsg = "0";
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-            outgoingMsg = "1";
-    }
-
     // Close the thread and the Serial Port connection
     private void OnDestroy()
     {
