@@ -285,6 +285,15 @@
 								<Property Name="Color" Type="int16" Value="11"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F786B673-16A6-4687-9C4B-87B29C3A2263}" ShortID="148521093">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainPlaylist" ID="{A4F72A5A-6781-4577-9711-F49FCC1AA854}" WorkUnitID="{C1C5432F-6B94-4193-A3C6-A403C20243FE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
 						</Event>
 					</ChildrenList>
 				</Folder>

@@ -10,6 +10,13 @@
 				<Folder Name="Music" ID="{453B480B-D670-4457-B97C-089F20427284}" ShortID="111800399">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="MainPlaylist" ID="{A4F72A5A-6781-4577-9711-F49FCC1AA854}" ShortID="462466815">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
@@ -18,6 +25,532 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="New Music Segment" ID="{779507CE-E999-451E-9491-66BDBFC4F59C}" ShortID="102905633">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="1332727.25623583"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="110"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Arp_Diva" ID="{056EE6ED-0DC0-45DF-8AA1-F78E8F10EC83}" ShortID="111089807">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheDarkForest_Diva(x64) #3" ID="{EFE862D7-EF4F-4E6D-90DB-BA4B7E953D68}">
+													<Language>SFX</Language>
+													<AudioFile>TheDarkForest_Diva(x64) #3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="836320958"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+														<CustomState Name="" ID="{FD1656E4-5D3E-4174-9886-5F34366CC3E2}" ShortID="260809799">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+														<CustomState Name="" ID="{6B0B9903-C86B-43CE-A452-BFDA70D0E2BC}" ShortID="833343386">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+														<CustomState Name="" ID="{15614983-9061-42E2-9985-451DDA295679}" ShortID="177758563"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FD37825C-2E75-4088-AB0A-209859F970C3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FF376769-0917-47BA-B4AE-30E619696898}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="TheDarkForest_Diva(x64) #3" ID="{486E5535-7910-4C2B-88E9-E1E4D06BD99B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="218363.628117914"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="TheDarkForest_Diva(x64) #3" ID="{EFE862D7-EF4F-4E6D-90DB-BA4B7E953D68}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Plucks_Mystique" ID="{959A5CEE-B469-4F27-A062-89AEECC5ECF8}" ShortID="331414585">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheDarkForest_Diva(x64) #2" ID="{4217B5EE-1BAC-435A-927C-8383321E61C8}">
+													<Language>SFX</Language>
+													<AudioFile>TheDarkForest_Diva(x64) #2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502287868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+														<CustomState Name="" ID="{BEC58F7B-0DA5-4277-9896-6BD3E2B74CFF}" ShortID="370478115">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-2"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+														<CustomState Name="" ID="{8EDD76DE-D31A-4217-AF48-71504FE229B9}" ShortID="154298790">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-6"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+														<CustomState Name="" ID="{746CEE4D-389F-427D-BDC4-41DD80892AEE}" ShortID="893428682"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8AADEEB3-03BD-4D03-88B3-FAA6C321DA31}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4426DB13-91CF-4A0E-BE92-FB0701E4C077}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="TheDarkForest_Diva(x64) #2" ID="{258DF5E3-6DBD-4C99-9052-F03526AFA61F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="218363.628117914"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="TheDarkForest_Diva(x64) #2" ID="{4217B5EE-1BAC-435A-927C-8383321E61C8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Bass" ID="{676C942C-F9BD-4FC1-98A1-8D2ED2FF33EF}" ShortID="94327097">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheDarkForest_Diva(x64)" ID="{276D2EFA-7EB9-418B-BEEE-D83D09315385}">
+													<Language>SFX</Language>
+													<AudioFile>TheDarkForest_Diva(x64).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="61860497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+														<CustomState Name="" ID="{4A7271FA-0417-4869-B7D1-CD73A5DC23B4}" ShortID="407100140">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+														<CustomState Name="" ID="{49C50A7B-407C-4E2B-95A2-C40EA7C3A81F}" ShortID="374842745">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+														<CustomState Name="" ID="{E7441CB0-5929-4454-82E3-9155636508AA}" ShortID="846304579"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DF8ACACB-07B0-4837-AD93-B7F5C9AF5925}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{53A7A30C-07DE-443A-A79B-D0576ED4033D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="TheDarkForest_Diva(x64)" ID="{D12981B2-849B-4CEE-AF8F-1CDD547006C4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="218363.628117914"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="TheDarkForest_Diva(x64)" ID="{276D2EFA-7EB9-418B-BEEE-D83D09315385}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Lyre" ID="{72A2BCD3-594E-485B-A973-4A28F47234D6}" ShortID="375161348">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheDarkForest_ENGINE" ID="{C578A1F3-117C-4F07-AA09-FD82246883C2}">
+													<Language>SFX</Language>
+													<AudioFile>TheDarkForest_ENGINE.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="686609311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+														<CustomState Name="" ID="{CF95FEA2-06B1-49F7-8DD5-90007984F3DE}" ShortID="607778262"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+														<CustomState Name="" ID="{E8231582-44D2-4CCC-B542-DBCCB313ACD3}" ShortID="545125794">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+														<CustomState Name="" ID="{50D4F49C-E5A5-4257-9392-5CB82173A310}" ShortID="555197540"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8DE6BA95-9F68-4A5B-B6D0-24C60879A56F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2114513C-E0FE-4100-9CB5-8CFB0C1857EC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="TheDarkForest_ENGINE" ID="{0F9838D2-650B-48ED-9462-8B920A3989F0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="218363.628117914"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="TheDarkForest_ENGINE" ID="{C578A1F3-117C-4F07-AA09-FD82246883C2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="MagicCricket_amb" ID="{3C65F6AC-64BC-4304-BB1C-E736DE711325}" ShortID="761129450">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheDarkForest_Granular PP" ID="{F1024196-C617-4C1D-911F-A2C88C556C70}">
+													<Language>SFX</Language>
+													<AudioFile>TheDarkForest_Granular PP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578550286"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+														<CustomState Name="" ID="{F7AC4859-DC44-4436-939F-0059EE07C000}" ShortID="738344052">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-3"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+														<CustomState Name="" ID="{E96A4048-32C0-414B-8B15-336D282BAD4B}" ShortID="641887761">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-6"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+														<CustomState Name="" ID="{DBDF2DD2-FA1A-4AF2-90CE-D2AA12A373E9}" ShortID="696662810"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3257FFA6-3F61-4153-B7BE-547C9EA265C0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2DB8CFC2-CF76-4A5F-BFBB-4DCB8F529B7B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="TheDarkForest_Granular PP" ID="{F3E1C529-3F4D-4231-8A55-2642830C1D1A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="218363.628117914"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="TheDarkForest_Granular PP" ID="{F1024196-C617-4C1D-911F-A2C88C556C70}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Pad" ID="{C7F7156A-402D-481F-A347-26FD7B2ACCC3}" ShortID="1050985655">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheDarkForest_PAD" ID="{1A4DA892-33D1-4ED7-9F62-13F9B9C73604}">
+													<Language>SFX</Language>
+													<AudioFile>TheDarkForest_PAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="456290268"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+														<CustomState Name="" ID="{A521F2C8-27A2-4C1D-BE82-3FADBC952347}" ShortID="789189702"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+														<CustomState Name="" ID="{18360AC1-3FBA-43B9-982A-FB8F8B88B959}" ShortID="982727854">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-2"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+														<CustomState Name="" ID="{3B68D87C-0163-4470-A633-0E29439F4039}" ShortID="537558178"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A4C2D619-FBE0-4F36-90B2-A3E928048B12}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1EB1E265-D362-452A-9ED2-E77917C8CA16}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="TheDarkForest_PAD" ID="{E3F9BB8F-D539-45B3-9976-462918A360B4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="218363.628117914"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="TheDarkForest_PAD" ID="{1A4DA892-33D1-4ED7-9F62-13F9B9C73604}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{077028A0-B490-4281-96B9-65DDE29FDA9C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9DB6FEFC-14EE-419B-914F-DC17E90CA3A8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="210000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
+										<CustomState Name="" ID="{7E0930ED-4091-4D16-84E6-BA9B6D61F16B}" ShortID="91294240"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
+										<CustomState Name="" ID="{AFC32554-1896-440A-B095-072677BF10CA}" ShortID="955811296"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+										<CustomState Name="" ID="{371DA2DA-D5BB-4E21-9BA3-89284F6A2AE5}" ShortID="895014205"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{7ADC57AB-D756-48AA-9076-E62F2623E7EA}">
 									<PropertyList>
@@ -32,7 +565,19 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{118EE8E7-381F-4763-B6DF-9A2AE62A3D5C}" ShortID="67672310"/>
+								<MusicPlaylistItem Name="" ID="{118EE8E7-381F-4763-B6DF-9A2AE62A3D5C}" ShortID="67672310">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{A3F21654-7F6E-4EBE-B997-A5C7BD2DCEDD}" ShortID="518365775">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="New Music Segment" ID="{779507CE-E999-451E-9491-66BDBFC4F59C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>

@@ -13,7 +13,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AK.Wwise.Bank SB_howling_swamps = null;
     [SerializeField] AK.Wwise.Bank SB_reine_gouillante = null;
     [SerializeField] AK.Wwise.Bank UI = null;
-
+    [SerializeField] AK.Wwise.Bank Music = null;
 
     [Header("Events")]
     [SerializeField] AK.Wwise.Event _Music = null;
@@ -29,6 +29,14 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AK.Wwise.Event Play_ui_death_generic = null;
     [SerializeField] AK.Wwise.Event Play_ui_death_reine_gouillante = null;
     [SerializeField] AK.Wwise.Event _stopAll = null;
+
+    [Header("State")]
+    [SerializeField]
+    AK.Wwise.State MusicState_01 = null;
+    [SerializeField]
+    AK.Wwise.State MusicState_02 = null;
+    [SerializeField]
+    AK.Wwise.State MusicState_03 = null;
 
     private static AudioManager instance;
     public static AudioManager Instance => instance;
@@ -52,13 +60,14 @@ public class AudioManager : MonoBehaviour
         SB_howling_swamps.Load();
         SB_reine_gouillante.Load();
         UI.Load();
-        
-
+        Music.Load();
     }
 
     private void Start()
     {
+        MusicState_01.SetValue();
         UIDeathGeneric();
+        
     }
 
     // Musics
@@ -72,6 +81,14 @@ public class AudioManager : MonoBehaviour
         {
             _Music.Stop(gameObject, 200);
         }
+
+    }
+
+    public void ChangeMusicState(int state)
+    {
+        if (state == 2) MusicState_02.SetValue();
+        if (state == 3) MusicState_03.SetValue();
+        else MusicState_01.SetValue();
 
     }
 

@@ -23,9 +23,7 @@
 							</PropertyList>
 							<ChildrenList>
 								<SoundBank Name="amb_bleeding_swamps" ID="{8B976B14-83D1-4E14-A5C0-EEFADFC6112E}">
-									<ObjectInclusionList>
-										<ObjectRef Name="Play_amb_bleeding_swamps" ID="{2C1CB83E-C911-4B8A-907C-606A7122E8AA}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
-									</ObjectInclusionList>
+									<ObjectInclusionList/>
 									<ObjectExclusionList/>
 									<GameSyncExclusionList/>
 								</SoundBank>
@@ -101,6 +99,17 @@
 							<ObjectInclusionList>
 								<ObjectRef Name="Play_ui_death_generic" ID="{12881788-42A2-424A-8451-3B5E9FE629DD}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Play_ui_death_reine_gouillante" ID="{FD538456-D1A9-471A-B082-F292A951F4FC}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Music" ID="{9246F9E2-9505-4DE8-A37C-2646F93FCDEB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectInclusionList>
+								<ObjectRef Name="PlayMusic" ID="{D69C880D-506D-4AA3-917A-E1B12622D91A}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
