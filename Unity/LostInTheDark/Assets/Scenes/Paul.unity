@@ -269,6 +269,98 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: UI.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0a612a7b62372634aa9a8062655e984b, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: _Music.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 970c83a934c314e4082db9a2e61d3d96, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: _stopAll.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 36a531dbf18027146947a9e875f443c0, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: amb_gate.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a3add389c0dd9e5459bcd8c70a687d37, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_amb_gate.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d4d70f9a14bc5e945aacff4047da6999, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_amb_spawn.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: e2c446329a6fd2a418acb6b6879c5d3b, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: amb_moon_shadow.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b01def94807ecdb458ecdf9a26c8c060, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: SB_howling_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a48a3f4fe50465e41a45aaeb28d766fa, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: amb_serpent_vigne.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 063c07968072b074bbc1a2639fe862dd, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_amb_maldirach.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 05f993b1caf0c3c4d9cf799eac0cc8a3, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_serpent_vigne.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3916ded0c686b6d4ebf48623b8d8216b, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: SB_carnivist_choir.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 00fe3132742fd944b82dc2695d1aabb6, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: amb_howling_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c2526353b9a4d54eb5dc9e3f9cd1aa2, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_howling_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c6f777d9015a20b4c936e7ebae9a63fc, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: SB_reine_gouillante.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 89d69eeaa249cfc45a0e8130080acbe9, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: amb_bleeding_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ca7b72b6e309f324a9dbb48f0dec335e, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_amb_moon_shadow.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f448ff41ad9e87b489995ee582fc493f, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: amb_maldirach_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4dcdd7ec0f604694bb47874fbba4d28b, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_ui_death_generic.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b8a9eec996198d4448137ddcf50308cb, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_amb_bleeding_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1a3b626b3873c4841bcd697964b30c10, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_ui_death_reine_gouillante.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f67f95565c88bce42a1c455240694cac, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_sound_bites_howling_swamps.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6990e240c1d84b44fbee0044a8121caf, type: 2}
+    - target: {fileID: 4625495659117446364, guid: 9e5e45b3c9dd94d4ebfd617b55dd81b5, type: 3}
+      propertyPath: Play_sound_bites_reine_gouillante.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bd1b12ad6e22f174bb752aa1fb6440f9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -360,6 +452,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9be46172048d34792e706632f60c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PortName: COM7
+  BaudRate: 9600
+  _lfoSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &892558089
 Transform:
   m_ObjectHideFlags: 0

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1411513916	Play_sound_bites_reine_gouillante			\Default Work Unit\DarkForest\SoundBites\Play_sound_bites_reine_gouillante	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1028816856	sound_bites_reine_gouillante	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\sound_bites_reine_gouillante_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_bites\sound_bites_reine_gouillante		890584
+

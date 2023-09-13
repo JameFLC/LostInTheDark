@@ -9,18 +9,759 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6ABA8F2-131A-EE5E-E4C6-0444CFCE6FD5}">
+		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{36EBB845-515D-0A36-58FD-F94B6CBD3554}">
+			<ShortName>amb_serpent_vigne</ShortName>
+			<Path>amb_serpent_vigne.bnk</Path>
+			<Media>
+				<File Id="52538348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_14.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="80259224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_spawn_01.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_spawn_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="114571097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_serpent_vigne.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_serpent_vigne_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="200380860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_12.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="212853223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_02.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="217169239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_07.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="217465718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_08.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="328923433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_04.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="404805225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_03.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="419268066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_10.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="487643897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_01.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="501475788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_spawn_02.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_spawn_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="605788199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_05.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="654769944" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_06.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="668775232" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_13.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="704727476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_spawn_05.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_spawn_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="719365444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_spawn_04.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_spawn_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="782858527" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_spawn_06.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_spawn_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="822970736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_spawn_03.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_spawn_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="869424325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_09.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="911760592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_15.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="969526211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_11.wav</ShortName>
+					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_11_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="872436943" Name="Play_serpent_vigne" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="52538348"/>
+						<MediaRef Id="80259224"/>
+						<MediaRef Id="114571097"/>
+						<MediaRef Id="200380860"/>
+						<MediaRef Id="212853223"/>
+						<MediaRef Id="217169239"/>
+						<MediaRef Id="217465718"/>
+						<MediaRef Id="328923433"/>
+						<MediaRef Id="404805225"/>
+						<MediaRef Id="419268066"/>
+						<MediaRef Id="487643897"/>
+						<MediaRef Id="501475788"/>
+						<MediaRef Id="605788199"/>
+						<MediaRef Id="654769944"/>
+						<MediaRef Id="668775232"/>
+						<MediaRef Id="704727476"/>
+						<MediaRef Id="719365444"/>
+						<MediaRef Id="782858527"/>
+						<MediaRef Id="822970736"/>
+						<MediaRef Id="869424325"/>
+						<MediaRef Id="911760592"/>
+						<MediaRef Id="969526211"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{A4D211D7-6E6D-44D6-1B3A-29EA07E6F565}">
+			<ShortName>amb_gate</ShortName>
+			<Path>amb_gate.bnk</Path>
+			<Media>
+				<File Id="953657218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_gate.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_gate_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1087016108" Name="Play_amb_gate" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="953657218"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6FCC5B63-E5A7-BAB9-2C3A-97038F0D0AD4}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3537656742" Name="AMBS"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="403037658" Name="OS_Reverb_Large">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{A355E26B-C8E1-C908-220A-469FB06947C8}">
+			<ShortName>amb_maldirach_swamps</ShortName>
+			<Path>amb_maldirach_swamps.bnk</Path>
+			<Media>
+				<File Id="16758288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_09.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="75834411" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_07.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="116441347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_05.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="231839770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_10.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="258152238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_08.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272695432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_02.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280909828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_03.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300251568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_08.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="333387853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_06.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="430573794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_01.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="463231248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_03.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="491434353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_06.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="535583684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_01.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="557305047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_07.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="581349178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_02.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582408471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_12.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="631982071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_11.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="708599131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_10.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="744772859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_09.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="792248509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_11.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="928777382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_04.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="931234372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_05.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="989703608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_maldirach_swamps_birds_chirping_04.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_04_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1197993866" Name="Play_amb_maldirach" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="16758288"/>
+						<MediaRef Id="75834411"/>
+						<MediaRef Id="116441347"/>
+						<MediaRef Id="231839770"/>
+						<MediaRef Id="258152238"/>
+						<MediaRef Id="272695432"/>
+						<MediaRef Id="280909828"/>
+						<MediaRef Id="300251568"/>
+						<MediaRef Id="333387853"/>
+						<MediaRef Id="430573794"/>
+						<MediaRef Id="463231248"/>
+						<MediaRef Id="491434353"/>
+						<MediaRef Id="535583684"/>
+						<MediaRef Id="557305047"/>
+						<MediaRef Id="581349178"/>
+						<MediaRef Id="582408471"/>
+						<MediaRef Id="631982071"/>
+						<MediaRef Id="708599131"/>
+						<MediaRef Id="744772859"/>
+						<MediaRef Id="792248509"/>
+						<MediaRef Id="928777382"/>
+						<MediaRef Id="931234372"/>
+						<MediaRef Id="989703608"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{83244240-F773-BF88-B2C2-FCD6450899AC}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="380692969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_death_generic.wav</ShortName>
+					<CachePath>SFX/ui_death_generic_10C4C929.wem</CachePath>
+				</File>
+				<File Id="530292196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_death_reine_gouillante.wav</ShortName>
+					<CachePath>SFX/ui_death_reine_gouillante_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3490999669" Name="Play_ui_death_generic" DurationType="OneShot" DurationMin="6.5164165" DurationMax="6.5164165">
+					<MediaRefs>
+						<MediaRef Id="380692969"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1069451164" Name="Play_ui_death_reine_gouillante" DurationType="OneShot" DurationMin="4.4179583" DurationMax="4.4179583">
+					<MediaRefs>
+						<MediaRef Id="530292196"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1648313502" Type="User" Language="SFX" Hash="{A5F94BCF-DBEE-8771-3032-FDEC1B3E9511}">
+			<ShortName>amb_bleeding_swamps</ShortName>
+			<Path>amb_bleeding_swamps.bnk</Path>
+			<Media>
+				<File Id="6597703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_19.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_19_10C4C929.wem</CachePath>
+				</File>
+				<File Id="16758288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_09.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="41353595" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_03.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="52848381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_25.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_25_10C4C929.wem</CachePath>
+				</File>
+				<File Id="85924216" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_24.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_24_10C4C929.wem</CachePath>
+				</File>
+				<File Id="103470116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_06.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="116441347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_05.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="131445041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vulture\sfx_ambs_os_bleeding_swamps_vultures_05.wav</ShortName>
+					<CachePath>SFX/vulture/sfx_ambs_os_bleeding_swamps_vultures_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="154912127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_22.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_22_10C4C929.wem</CachePath>
+				</File>
+				<File Id="181233053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_21.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_21_10C4C929.wem</CachePath>
+				</File>
+				<File Id="202718514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_13.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="231839770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_10.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="235580072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_03.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="245436101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_17.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="258152238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_08.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272695432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_02.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="274045459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_20.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_20_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275780263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_02.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280909828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_03.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="284019073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_10.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="315003707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_07.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="315507575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_12.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="331978233" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_09.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="347164176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_07.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="350743289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_05.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361584732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_09.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="371002584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_18.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="391793456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_11.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="477871704" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_12.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="483240062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_07.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="491434353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_06.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="515423667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_23.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_23_10C4C929.wem</CachePath>
+				</File>
+				<File Id="528318695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_06.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="534302418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_04.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="535583684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_01.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="557305047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_07.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="561316091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_08.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="571674091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_09.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582408471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_12.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="611853687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_26.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_26_10C4C929.wem</CachePath>
+				</File>
+				<File Id="628007877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_01.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="631982071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_11.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="686618665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_27.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_27_10C4C929.wem</CachePath>
+				</File>
+				<File Id="711522609" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_03.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="722291602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vulture\sfx_ambs_os_bleeding_swamps_vultures_02.wav</ShortName>
+					<CachePath>SFX/vulture/sfx_ambs_os_bleeding_swamps_vultures_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="725657525" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vulture\sfx_ambs_os_bleeding_swamps_vultures_04.wav</ShortName>
+					<CachePath>SFX/vulture/sfx_ambs_os_bleeding_swamps_vultures_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="747651895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_08.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="764302121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_06.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="784006138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_10.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="787702447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vulture\sfx_ambs_os_bleeding_swamps_vultures_01.wav</ShortName>
+					<CachePath>SFX/vulture/sfx_ambs_os_bleeding_swamps_vultures_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="792402287" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_02.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="816147281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_11.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="834946099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_01.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="836287150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_11.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="841969885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_12.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="856796093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_05.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="880993463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_10.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="905337741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_16.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="917299388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_04.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="922791708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore\sfx_ambs_beds_bleeding_swamps_gore_05.wav</ShortName>
+					<CachePath>SFX/gore/sfx_ambs_beds_bleeding_swamps_gore_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="928777382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_04.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="929145229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_15.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="930789765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_os_charognards_02.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_os_charognards_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1007729474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_04.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014150884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_08.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1022254741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_01.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1066484191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vulture\sfx_ambs_os_bleeding_swamps_vultures_03.wav</ShortName>
+					<CachePath>SFX/vulture/sfx_ambs_os_bleeding_swamps_vultures_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1066555521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gore_bubbles\sfx_ambs_os_bleeding_swamps_gore_bubbles_14.wav</ShortName>
+					<CachePath>SFX/gore_bubbles/sfx_ambs_os_bleeding_swamps_gore_bubbles_14_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3516301799" Name="Play_amb_bleeding_swamps" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="6597703"/>
+						<MediaRef Id="16758288"/>
+						<MediaRef Id="41353595"/>
+						<MediaRef Id="52848381"/>
+						<MediaRef Id="85924216"/>
+						<MediaRef Id="103470116"/>
+						<MediaRef Id="116441347"/>
+						<MediaRef Id="131445041"/>
+						<MediaRef Id="154912127"/>
+						<MediaRef Id="181233053"/>
+						<MediaRef Id="202718514"/>
+						<MediaRef Id="231839770"/>
+						<MediaRef Id="235580072"/>
+						<MediaRef Id="245436101"/>
+						<MediaRef Id="258152238"/>
+						<MediaRef Id="272695432"/>
+						<MediaRef Id="274045459"/>
+						<MediaRef Id="275780263"/>
+						<MediaRef Id="280909828"/>
+						<MediaRef Id="284019073"/>
+						<MediaRef Id="315003707"/>
+						<MediaRef Id="315507575"/>
+						<MediaRef Id="331978233"/>
+						<MediaRef Id="347164176"/>
+						<MediaRef Id="350743289"/>
+						<MediaRef Id="361584732"/>
+						<MediaRef Id="371002584"/>
+						<MediaRef Id="391793456"/>
+						<MediaRef Id="477871704"/>
+						<MediaRef Id="483240062"/>
+						<MediaRef Id="491434353"/>
+						<MediaRef Id="515423667"/>
+						<MediaRef Id="528318695"/>
+						<MediaRef Id="534302418"/>
+						<MediaRef Id="535583684"/>
+						<MediaRef Id="557305047"/>
+						<MediaRef Id="561316091"/>
+						<MediaRef Id="571674091"/>
+						<MediaRef Id="582408471"/>
+						<MediaRef Id="611853687"/>
+						<MediaRef Id="628007877"/>
+						<MediaRef Id="631982071"/>
+						<MediaRef Id="686618665"/>
+						<MediaRef Id="711522609"/>
+						<MediaRef Id="722291602"/>
+						<MediaRef Id="725657525"/>
+						<MediaRef Id="747651895"/>
+						<MediaRef Id="764302121"/>
+						<MediaRef Id="784006138"/>
+						<MediaRef Id="787702447"/>
+						<MediaRef Id="792402287"/>
+						<MediaRef Id="816147281"/>
+						<MediaRef Id="834946099"/>
+						<MediaRef Id="836287150"/>
+						<MediaRef Id="841969885"/>
+						<MediaRef Id="856796093"/>
+						<MediaRef Id="880993463"/>
+						<MediaRef Id="905337741"/>
+						<MediaRef Id="917299388"/>
+						<MediaRef Id="922791708"/>
+						<MediaRef Id="928777382"/>
+						<MediaRef Id="929145229"/>
+						<MediaRef Id="930789765"/>
+						<MediaRef Id="1007729474"/>
+						<MediaRef Id="1014150884"/>
+						<MediaRef Id="1022254741"/>
+						<MediaRef Id="1066484191"/>
+						<MediaRef Id="1066555521"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2203198968" Type="User" Language="SFX" Hash="{5C4C6379-DC70-30DD-02B2-9B7CC00E0BF8}">
+			<ShortName>SB_carnivist_choir</ShortName>
+			<Path>SB_carnivist_choir.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2471527859" Type="User" Language="SFX" Hash="{25062C2F-A11B-A378-688A-287597D3CC89}">
+			<ShortName>SB_reine_gouillante</ShortName>
+			<Path>SB_reine_gouillante.bnk</Path>
+			<Media>
+				<File Id="1028816856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sound_bites_reine_gouillante.wav</ShortName>
+					<CachePath>SFX/sound_bites_reine_gouillante_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1411513916" Name="Play_sound_bites_reine_gouillante" DurationType="OneShot" DurationMin="4.6379585" DurationMax="4.6379585">
+					<MediaRefs>
+						<MediaRef Id="1028816856"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{03C453CC-5B3B-2A66-4BA9-028BBA9D10A9}">
+			<ShortName>amb_moon_shadow</ShortName>
+			<Path>amb_moon_shadow.bnk</Path>
+			<Media>
+				<File Id="19597403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_05.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="121221675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_07.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="155235834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_03.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="359600213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_02.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="398261116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_01.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="460591737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_04.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1072963312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prem_sfx_ambs_beds_moon_shadow_06.wav</ShortName>
+					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_06_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183445069" Name="Play_amb_moon_shadow" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="19597403"/>
+						<MediaRef Id="121221675"/>
+						<MediaRef Id="155235834"/>
+						<MediaRef Id="359600213"/>
+						<MediaRef Id="398261116"/>
+						<MediaRef Id="460591737"/>
+						<MediaRef Id="1072963312"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="3291379323" Type="User" Language="SFX" Hash="{D40F6656-7DFA-2B7D-CB70-AD98AC175FDD}">
 			<ShortName>TestBank</ShortName>
@@ -40,6 +781,203 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3605615547" Type="User" Language="SFX" Hash="{97D1B4D2-DB5E-64FF-8CCF-08EC0639A243}">
+			<ShortName>SB_howling_swamps</ShortName>
+			<Path>SB_howling_swamps.bnk</Path>
+			<Media>
+				<File Id="68016188" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sound_bites_howling_swamps.wav</ShortName>
+					<CachePath>SFX/sound_bites_howling_swamps_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2105663184" Name="Play_sound_bites_howling_swamps" DurationType="OneShot" DurationMin="8.27673" DurationMax="8.27673">
+					<MediaRefs>
+						<MediaRef Id="68016188"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{AF50F419-3AB0-3FFE-9869-E9DD4031D7F6}">
+			<ShortName>amb_howling_swamps</ShortName>
+			<Path>amb_howling_swamps.bnk</Path>
+			<Media>
+				<File Id="16758288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_09.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="24290855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_02.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="70806397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_01.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="116441347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_05.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="126393168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_ambs_beds_howling_swamps_ghosts.wav</ShortName>
+					<CachePath>SFX/sfx_ambs_beds_howling_swamps_ghosts_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="133292680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_08.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="172904441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_09.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="231839770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_10.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="253094839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_10.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="255450673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_08.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="258152238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_08.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272695432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_02.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280909828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_03.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="347135701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_02.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399127378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_09.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="419330148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_04.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="472514112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_05.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="491434353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_06.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="499341800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_03.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="535583684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_01.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="557305047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_07.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="558829372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_03.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582408471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_12.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="631982071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_11.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="782798176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_06.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="798753852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_10.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="820024051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_05.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="911277331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_06.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="924194627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_07.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="928777382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>liquid\sfx_ambs_beds_bleeding_swamps_liquid_04.wav</ShortName>
+					<CachePath>SFX/liquid/sfx_ambs_beds_bleeding_swamps_liquid_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="937343417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_01.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1011494402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_banshee\sfx_ambs_os_howling_swamps_banshee_07.wav</ShortName>
+					<CachePath>SFX/os_banshee/sfx_ambs_os_howling_swamps_banshee_07_43F288D4.wem</CachePath>
+				</File>
+				<File Id="1051889097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>os_ghost\sfx_ambs_os_howling_swamps_ghosts_04.wav</ShortName>
+					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_04_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4216740504" Name="Play_howling_swamps" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="16758288"/>
+						<MediaRef Id="24290855"/>
+						<MediaRef Id="70806397"/>
+						<MediaRef Id="116441347"/>
+						<MediaRef Id="126393168"/>
+						<MediaRef Id="133292680"/>
+						<MediaRef Id="172904441"/>
+						<MediaRef Id="231839770"/>
+						<MediaRef Id="253094839"/>
+						<MediaRef Id="255450673"/>
+						<MediaRef Id="258152238"/>
+						<MediaRef Id="272695432"/>
+						<MediaRef Id="280909828"/>
+						<MediaRef Id="347135701"/>
+						<MediaRef Id="399127378"/>
+						<MediaRef Id="419330148"/>
+						<MediaRef Id="472514112"/>
+						<MediaRef Id="491434353"/>
+						<MediaRef Id="499341800"/>
+						<MediaRef Id="535583684"/>
+						<MediaRef Id="557305047"/>
+						<MediaRef Id="558829372"/>
+						<MediaRef Id="582408471"/>
+						<MediaRef Id="631982071"/>
+						<MediaRef Id="782798176"/>
+						<MediaRef Id="798753852"/>
+						<MediaRef Id="820024051"/>
+						<MediaRef Id="911277331"/>
+						<MediaRef Id="924194627"/>
+						<MediaRef Id="928777382"/>
+						<MediaRef Id="937343417"/>
+						<MediaRef Id="1011494402"/>
+						<MediaRef Id="1051889097"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2259E3DE-0B67-CDCB-0828-D31B582E84BD}</FileHash>
+	<FileHash>{3F92956F-2424-7370-8438-3A4A38B99839}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1069451164	Play_ui_death_reine_gouillante			\Default Work Unit\DarkForest\UI\Play_ui_death_reine_gouillante	
+	3490999669	Play_ui_death_generic			\Default Work Unit\DarkForest\UI\Play_ui_death_generic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	380692969	ui_death_generic	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\ui_death_generic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\death\generic\ui_death_generic		1251248
+	530292196	ui_death_reine_gouillante	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\ui_death_reine_gouillante_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\death\places_identities\ui_death_reine_gouillante		848344
+

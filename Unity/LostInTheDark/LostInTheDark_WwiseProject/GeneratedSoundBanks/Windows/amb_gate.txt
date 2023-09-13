@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1087016108	Play_amb_gate			\Default Work Unit\DarkForest\Ambs\Play_amb_gate	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	953657218	sfx_ambs_beds_gate	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\sfx_ambs_beds_gate_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\gate\beds\sfx_ambs_beds_gate		17290968
+

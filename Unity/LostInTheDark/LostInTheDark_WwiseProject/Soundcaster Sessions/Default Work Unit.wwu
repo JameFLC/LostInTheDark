@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B8523467-2414-4D5A-ACF9-D6387999B7A2}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B8523467-2414-4D5A-ACF9-D6387999B7A2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B8523467-2414-4D5A-ACF9-D6387999B7A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{41F7EB3D-7DA3-476D-8E35-11D198399AEF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_amb_bleeding_swamps" ID="{2C1CB83E-C911-4B8A-907C-606A7122E8AA}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_spawn" ID="{3F31E6BE-DAA2-4785-8D47-B83B975DF5EB}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_maldirach" ID="{6F71F25F-9C64-4880-A488-28236AA71C9D}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_howling_swamps" ID="{262A1C10-8E56-46B7-9AC1-C240090947FA}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_moon_shadow" ID="{83C0895C-0B29-4D7F-9E76-682499B27B06}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_gate" ID="{115C8447-8F9B-476D-A8BC-8A0BA2F06267}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopAllFade" ID="{21902FE7-2936-4CB5-A019-5F3209E5744B}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_serpent_vigne" ID="{DA5125FD-7214-4943-B02A-196F926C2828}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -14,6 +14,280 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="DarkForest" ID="{0061DC40-7941-4BEC-AA5A-62716C9C45B5}" ShortID="502971615">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Ambs" ID="{AD46CE97-7E2D-4CEE-AB8B-DF2840F280BB}" ShortID="878034826">
+							<ChildrenList>
+								<Event Name="Play_amb_moon_shadow" ID="{83C0895C-0B29-4D7F-9E76-682499B27B06}">
+									<ChildrenList>
+										<Action Name="" ID="{FA41853E-194E-494B-BB9F-027A0F51C0B4}" ShortID="381078362">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_moon_shadow" ID="{1BD9D850-0B24-4132-8EC8-2EEF69F6012D}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_amb_spawn" ID="{3F31E6BE-DAA2-4785-8D47-B83B975DF5EB}">
+									<ChildrenList>
+										<Action Name="" ID="{50B2BCF6-9292-431A-8461-7FBF6FDC773B}" ShortID="385841079">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_spawn" ID="{8EE1F9C7-0CF6-427A-9BB1-C95F5C138DD6}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_amb_bleeding_swamps" ID="{2C1CB83E-C911-4B8A-907C-606A7122E8AA}">
+									<ChildrenList>
+										<Action Name="" ID="{54DF3D76-1661-415E-8C6F-DF9CE9A2C53C}" ShortID="411219316">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_gore" ID="{FB145780-BC5B-4D60-AFF5-F9DD7168B704}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9217A7B0-2A41-477E-BBAB-BBD579C6B0D5}" ShortID="434540179">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_liquid" ID="{DF059043-6BAD-4520-B63B-C523BF0DE7B8}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{863FEB95-B4D4-48D1-84EE-B5E11CE48087}" ShortID="168397960">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="gore_bubbles" ID="{217A9E8D-C803-4B26-820E-96E03DD728DE}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E348FC63-1863-4BCB-8103-9F272F124E26}" ShortID="899426832">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hyena" ID="{4CA5688C-64BB-4BF1-B20A-CF5D809E9DCA}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EFEB9522-D225-4A9B-BF2E-B6F18A687999}" ShortID="22667826">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="vulture" ID="{E65FFEE8-C27D-4C7D-9628-E82FEBCF3954}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A161C1AF-4B01-4F68-B8AD-F09E3E55DC8F}" ShortID="273216322">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="charognards" ID="{73982F70-3ED1-4405-A4D0-1226248BEC84}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_amb_maldirach" ID="{6F71F25F-9C64-4880-A488-28236AA71C9D}">
+									<ChildrenList>
+										<Action Name="" ID="{E6BA8976-283F-4F90-8E02-78B0823767E7}" ShortID="61033197">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_liquid" ID="{AEC5EF39-2EDB-47A5-ABC7-D7E79B823434}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{08407CA7-BBB4-47FD-B061-2CAE1F8D223B}" ShortID="899633812">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="os_birds_chirping" ID="{E199963F-6DB3-4016-B3E1-3F2A871DE9D1}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_amb_gate" ID="{115C8447-8F9B-476D-A8BC-8A0BA2F06267}">
+									<ChildrenList>
+										<Action Name="" ID="{0478B81C-4278-446A-AFC9-6B5EB93B1C43}" ShortID="343095259">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_ambs_beds_gate" ID="{484F646F-28AB-4983-8F5A-941829654B32}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_howling_swamps" ID="{262A1C10-8E56-46B7-9AC1-C240090947FA}">
+									<ChildrenList>
+										<Action Name="" ID="{565FEA29-B1C1-40D9-862D-EA026E0EE24A}" ShortID="910395560">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_ambs_beds_howling_swamps_ghosts" ID="{8284736D-9FF0-40C0-81E2-BFA11520896C}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E6D1298D-63C6-4239-ADC4-721709D71628}" ShortID="743106543">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="os_banshee" ID="{184FD48F-1756-48F1-ABFD-11D131D7C058}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{4241FA92-42A8-46FC-AE32-9E2E1D8B27A3}" ShortID="1066340740">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="os_ghost" ID="{050B4268-7CC0-4A18-90B4-6D1442E238EF}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A6C7F637-6A26-45C1-A9D7-7253D4FAAD38}" ShortID="596550632">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_liquid" ID="{0DD29EC8-D90B-4A41-ADBB-2452081C4BBF}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_serpent_vigne" ID="{DA5125FD-7214-4943-B02A-196F926C2828}">
+									<ChildrenList>
+										<Action Name="" ID="{B9DB36F5-6483-4DA9-BC8D-BF986E62A4A2}" ShortID="105942879">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beds_spawn" ID="{EE2FC3FA-4798-47AD-A584-838CF0FCD7D6}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1B5B4B63-7396-456D-A53D-6BD5B3E45D32}" ShortID="66259274">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_ambs_beds_serpent_vigne" ID="{3478FC32-5557-4FEA-BECF-0384A301A26D}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{329BF245-1702-4ACF-AB70-5A6E1A4041D5}" ShortID="510985798">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="os_snake_rattle" ID="{AD8CC68A-04F3-4593-9B25-2D4CBDBED36D}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SoundBites" ID="{B02B3343-FEEC-437A-8EB0-36D7055899E6}" ShortID="814811968">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_sound_bites_reine_gouillante" ID="{D7089969-B8B7-4E3E-91A5-4B2680D57624}">
+									<ChildrenList>
+										<Action Name="" ID="{92402368-D1EC-4D7B-B0C0-353B234E3D91}" ShortID="724280464">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sound_bites_reine_gouillante" ID="{930AF8B7-8546-49A6-B705-67089BCF41DE}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_sound_bites_howling_swamps" ID="{79FAFCB2-48E5-4E4C-9F27-D393723A6F0A}">
+									<ChildrenList>
+										<Action Name="" ID="{5ECB2C4C-CEF3-47B5-A3A7-7BADAE91E356}" ShortID="892234720">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sound_bites_howling_swamps" ID="{A571F937-BE74-461E-9C6F-6D875365B762}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="UI" ID="{83FB2DD4-D64E-415D-BBD7-ED4943DB8C3A}" ShortID="1064357515">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_ui_death_generic" ID="{12881788-42A2-424A-8451-3B5E9FE629DD}">
+									<ChildrenList>
+										<Action Name="" ID="{27CD5502-9AF2-458C-90C8-8AB15178241A}" ShortID="1038111613">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ui_death_generic" ID="{8FA4AABA-D86D-46C3-AF0F-58B831B12078}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ui_death_reine_gouillante" ID="{FD538456-D1A9-471A-B082-F292A951F4FC}">
+									<ChildrenList>
+										<Action Name="" ID="{5C2BD377-3D85-433A-9828-61431B349940}" ShortID="722146136">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ui_death_reine_gouillante" ID="{8072FCD8-33B4-49EA-B9CF-3D5D59D5F090}" WorkUnitID="{0CE44143-9C23-424A-B4AA-5ED686673F8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="StopAllFade" ID="{21902FE7-2936-4CB5-A019-5F3209E5744B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{03BEBC44-0645-403A-8701-E6CF25525452}" ShortID="743875295">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{5A47F389-E7E9-486E-9F59-AADA139E0FA2}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MainPlaylist" ID="{A4F72A5A-6781-4577-9711-F49FCC1AA854}" WorkUnitID="{C1C5432F-6B94-4193-A3C6-A403C20243FE}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayMusic" ID="{D69C880D-506D-4AA3-917A-E1B12622D91A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

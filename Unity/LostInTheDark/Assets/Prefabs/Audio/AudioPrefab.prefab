@@ -9,9 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3491356999279271144}
-  - component: {fileID: 5117985973954377293}
   - component: {fileID: 2914676002095227291}
-  - component: {fileID: 7971547819371981318}
+  - component: {fileID: 4625495659117446364}
   m_Layer: 0
   m_Name: AudioPrefab
   m_TagString: Untagged
@@ -34,30 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5117985973954377293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3928811111897853810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f2becb4ecceabd42b0e36b7b0160ad6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0bd9f0e094f80e34689f488a8df0b6c4, type: 2}
-  decodeBank: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
 --- !u!114 &2914676002095227291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,7 +55,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &7971547819371981318
+--- !u!114 &4625495659117446364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,23 +64,98 @@ MonoBehaviour:
   m_GameObject: {fileID: 3928811111897853810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39407ed08f6defa409aff148ef92b9bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 3458eba87c28229418a3055be68160c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
+  amb_bleeding_swamps:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f5ac65542bc19794d98e980b6456d5d6, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ca7b72b6e309f324a9dbb48f0dec335e, type: 2}
+  amb_gate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a3add389c0dd9e5459bcd8c70a687d37, type: 2}
+  amb_howling_swamps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3c2526353b9a4d54eb5dc9e3f9cd1aa2, type: 2}
+  amb_maldirach_swamps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4dcdd7ec0f604694bb47874fbba4d28b, type: 2}
+  amb_moon_shadow:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b01def94807ecdb458ecdf9a26c8c060, type: 2}
+  amb_serpent_vigne:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 063c07968072b074bbc1a2639fe862dd, type: 2}
+  SB_carnivist_choir:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 00fe3132742fd944b82dc2695d1aabb6, type: 2}
+  SB_howling_swamps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a48a3f4fe50465e41a45aaeb28d766fa, type: 2}
+  SB_reine_gouillante:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 89d69eeaa249cfc45a0e8130080acbe9, type: 2}
+  UI:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0a612a7b62372634aa9a8062655e984b, type: 2}
+  _Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 970c83a934c314e4082db9a2e61d3d96, type: 2}
+  Play_amb_bleeding_swamps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1a3b626b3873c4841bcd697964b30c10, type: 2}
+  Play_amb_gate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d4d70f9a14bc5e945aacff4047da6999, type: 2}
+  Play_amb_maldirach:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 05f993b1caf0c3c4d9cf799eac0cc8a3, type: 2}
+  Play_amb_moon_shadow:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f448ff41ad9e87b489995ee582fc493f, type: 2}
+  Play_amb_spawn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e2c446329a6fd2a418acb6b6879c5d3b, type: 2}
+  Play_howling_swamps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c6f777d9015a20b4c936e7ebae9a63fc, type: 2}
+  Play_serpent_vigne:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3916ded0c686b6d4ebf48623b8d8216b, type: 2}
+  Play_sound_bites_howling_swamps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6990e240c1d84b44fbee0044a8121caf, type: 2}
+  Play_sound_bites_reine_gouillante:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bd1b12ad6e22f174bb752aa1fb6440f9, type: 2}
+  Play_ui_death_generic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b8a9eec996198d4448137ddcf50308cb, type: 2}
+  Play_ui_death_reine_gouillante:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f67f95565c88bce42a1c455240694cac, type: 2}
+  _stopAll:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 36a531dbf18027146947a9e875f443c0, type: 2}

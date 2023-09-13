@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	183445069	Play_amb_moon_shadow			\Default Work Unit\DarkForest\Ambs\Play_amb_moon_shadow	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19597403	Prem_sfx_ambs_beds_moon_shadow_05	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_05		1922016
+	121221675	Prem_sfx_ambs_beds_moon_shadow_07	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_07		1922016
+	155235834	Prem_sfx_ambs_beds_moon_shadow_03	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_03		1922016
+	359600213	Prem_sfx_ambs_beds_moon_shadow_02	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_02		1922016
+	398261116	Prem_sfx_ambs_beds_moon_shadow_01	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_01		1922016
+	460591737	Prem_sfx_ambs_beds_moon_shadow_04	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_04		1922016
+	1072963312	Prem_sfx_ambs_beds_moon_shadow_06	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_06		1922016
+
