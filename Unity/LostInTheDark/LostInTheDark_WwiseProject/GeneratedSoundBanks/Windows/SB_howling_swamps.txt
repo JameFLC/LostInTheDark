@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2105663184	Play_sound_bites_howling_swamps			\Default Work Unit\DarkForest\SoundBites\Play_sound_bites_howling_swamps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	68016188	sound_bites_howling_swamps	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\sound_bites_howling_swamps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_bites\sound_bites_howling_swamps		1589228
+

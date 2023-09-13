@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C1C5432F-6B94-4193-A3C6-A403C20243FE}" SchemaVersion="110">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{C1C5432F-6B94-4193-A3C6-A403C20243FE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C1C5432F-6B94-4193-A3C6-A403C20243FE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Music" ID="{453B480B-D670-4457-B97C-089F20427284}" ShortID="111800399">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MainPlaylist" ID="{A4F72A5A-6781-4577-9711-F49FCC1AA854}" ShortID="462466815">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7ADC57AB-D756-48AA-9076-E62F2623E7EA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CF36536F-8E95-46A8-A390-F6A8B9A1B9D8}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{118EE8E7-381F-4763-B6DF-9A2AE62A3D5C}" ShortID="67672310"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -10,6 +10,103 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<Folder Name="DarkForest_SoudBanks" ID="{12927238-3FB1-4659-908F-484EF7BA9E92}" ShortID="355289503">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Ambs_bank" ID="{DCA793E9-BDA4-4708-854B-E8F892FB13E1}" ShortID="1015529102">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<SoundBank Name="amb_bleeding_swamps" ID="{8B976B14-83D1-4E14-A5C0-EEFADFC6112E}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_amb_bleeding_swamps" ID="{2C1CB83E-C911-4B8A-907C-606A7122E8AA}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="amb_gate" ID="{5A251FD5-EE71-4EE4-8B75-450C14A73E3D}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_amb_gate" ID="{115C8447-8F9B-476D-A8BC-8A0BA2F06267}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="amb_howling_swamps" ID="{835FCD62-5E1F-4D3A-ACC6-E7202EBF7CCF}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_howling_swamps" ID="{262A1C10-8E56-46B7-9AC1-C240090947FA}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="amb_maldirach_swamps" ID="{55834BF5-EE85-47CD-AD23-55EE1F93C01B}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_amb_maldirach" ID="{6F71F25F-9C64-4880-A488-28236AA71C9D}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="amb_moon_shadow" ID="{DFC7E226-AA2D-4BB3-BCFF-F6F2A9EDAAC4}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_amb_moon_shadow" ID="{83C0895C-0B29-4D7F-9E76-682499B27B06}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="amb_serpent_vigne" ID="{29720466-A14B-49D7-B1D3-90E182F27F84}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_serpent_vigne" ID="{DA5125FD-7214-4943-B02A-196F926C2828}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Sound Bites" ID="{D42A0DD5-9FF2-4BCE-A149-B1332D7D85E2}" ShortID="270048239">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<SoundBank Name="SB_reine_gouillante" ID="{87ED6C14-F6AA-45BB-9C6D-8053B5DFC09E}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_sound_bites_reine_gouillante" ID="{D7089969-B8B7-4E3E-91A5-4B2680D57624}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="SB_howling_swamps" ID="{26E89747-2BD8-4DB3-BE24-8D2066675AB5}">
+									<ObjectInclusionList>
+										<ObjectRef Name="Play_sound_bites_howling_swamps" ID="{79FAFCB2-48E5-4E4C-9F27-D393723A6F0A}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+									</ObjectInclusionList>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+								<SoundBank Name="SB_carnivist_choir" ID="{3ECC9B12-6EEF-448C-B92F-A70928FA2AEA}">
+									<ObjectInclusionList/>
+									<ObjectExclusionList/>
+									<GameSyncExclusionList/>
+								</SoundBank>
+							</ChildrenList>
+						</Folder>
+						<SoundBank Name="UI" ID="{8872A20B-296F-4274-990F-B79745027969}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_ui_death_generic" ID="{12881788-42A2-424A-8451-3B5E9FE629DD}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_ui_death_reine_gouillante" ID="{FD538456-D1A9-471A-B082-F292A951F4FC}" WorkUnitID="{8BABB38F-D34B-49B9-AC19-FCF8C5CECAB1}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
