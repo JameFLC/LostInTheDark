@@ -10,46 +10,15 @@ public class ArduinoManager : MonoBehaviour
     [SerializeField]
     private int BaudRate = 9600;
 
-    [SerializeField] AK.Wwise.Event _lfoSound = null;
-
     Thread IOThread;
     private SerialPort sp;
     private string incomingMsg = "";
     private string outgoingMsg = "";
 
-
-    private bool isOn = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        IOThread = new Thread(DataThread);
-        IOThread.Start();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (incomingMsg != "")
-        {
-            Debug.Log(incomingMsg);
-        }
-
-        if ((incomingMsg != "") != isOn)
-        {
-            isOn = incomingMsg != "";
-            AudioSwitch(isOn);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-            outgoingMsg = "0";
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-            outgoingMsg = "1";
-    }
-
-    // Responsible for data streaming 
+    // Responsible for data streaming management
     private void DataThread()
     {
-        sp = new SerialPort(PortName, BaudRate);
+        sp = new SerialPort(PortName, BaudRate); // Arduino is connected to COM6, with 9600 baud rate.
         sp.Open();
 
         while (true)
@@ -66,23 +35,27 @@ public class ArduinoManager : MonoBehaviour
         }
     }
 
-<<<<<<< HEAD
-=======
-    public void AudioSwitch(bool play)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (play)
-        {
-            _lfoSound.Post(gameObject);
-            AkSoundEngine.PostEvent("Play_Test_Sine",this.gameObject);
-        }
-        else
-        {
-            AkSoundEngine.StopAll(this.gameObject);
-        }
+        IOThread = new Thread(DataThread);
+        IOThread.Start();
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        if (incomingMsg != "")
+        {
+            Debug.Log(incomingMsg);
+        }
 
->>>>>>> 63716dbb914713cf2b5bf62d64810ea3fbf4fdce
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            outgoingMsg = "0";
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+            outgoingMsg = "1";
+    }
+
     // Close the thread and the Serial Port connection
     private void OnDestroy()
     {
