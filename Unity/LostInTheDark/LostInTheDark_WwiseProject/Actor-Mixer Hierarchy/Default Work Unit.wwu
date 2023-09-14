@@ -166,6 +166,11 @@
 												<Value>-1</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1147,6 +1152,7 @@
 													</ValueList>
 												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1178,9 +1184,14 @@
 												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-8</Value>
+														<Value>-12</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -1201,6 +1212,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="OS_Reverb_Large" ID="{2D0BC148-D63B-452E-AAFB-9922DB97FA45}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1810,6 +1824,27 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+												<CustomState Name="" ID="{49464362-1C8A-4D64-8CC5-998491E6F788}" ShortID="439659123"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+												<CustomState Name="" ID="{42D3A46E-DBD5-46FD-9298-2CCC6E865A1B}" ShortID="893177677">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</ActorMixer>
 								<ActorMixer Name="beds" ID="{603549E6-2269-4C20-9BEE-EFD16AD931D8}" ShortID="516828311">
 									<ReferenceList>
@@ -2465,6 +2500,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<ActorMixer Name="os" ID="{D0694CBB-1215-4059-997B-CB0CC03BA631}" ShortID="304835167">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
@@ -2555,7 +2597,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-12</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -3182,6 +3224,27 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+												<CustomState Name="" ID="{9E0E8807-532D-4C62-A0BD-F5CA4B212840}" ShortID="570302501"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+												<CustomState Name="" ID="{BC1BAEF9-861C-44F9-98FB-B553FE46AC3D}" ShortID="979611914">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</ActorMixer>
 								<ActorMixer Name="beds" ID="{5D17756F-CDAF-4F8A-98DC-756829F654BA}" ShortID="61634930">
 									<ReferenceList>
@@ -3548,6 +3611,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<ActorMixer Name="os" ID="{B26F08D9-9ECA-4383-9C5B-0F882A98EF4C}" ShortID="267879395">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
@@ -4259,6 +4329,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<ActorMixer Name="os" ID="{683F43AE-2CBB-4C96-8D27-4DC166F5EB39}" ShortID="410557891">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
@@ -4731,6 +4808,27 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+												<CustomState Name="" ID="{B914A30F-A549-4919-BD60-AD99F04A6B75}" ShortID="629116226"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+												<CustomState Name="" ID="{8DA4163D-9A6E-4A8F-A3C1-E3A820080544}" ShortID="369552880">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</ActorMixer>
 								<ActorMixer Name="beds" ID="{1CC03BC2-80EE-4BB6-8720-0639E1A4436C}" ShortID="851512944">
 									<ReferenceList>
@@ -4747,7 +4845,7 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>-12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -4782,7 +4880,7 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-8</Value>
+														<Value>-9</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -5377,6 +5475,29 @@
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+								<CustomState Name="" ID="{FFA6EBF6-E330-4948-A35B-24EB5ED84577}" ShortID="396144549"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+								<CustomState Name="" ID="{A042E19F-4850-4DF2-9E85-F17237728DDA}" ShortID="245989875">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="18"/>
+										<Property Name="Lowpass" Type="int16" Value="19"/>
+										<Property Name="Volume" Type="Real64" Value="-4"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{9C75C4C1-E07F-40C6-8D1B-0F9EC108A255}" ShortID="504750079">
 					<PropertyList>
@@ -5538,15 +5659,23 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="18"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1ABBA48E-A86F-4080-A028-1CA6E46C574B}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Meter (Custom)" ID="{83F0E0A5-6F56-4E79-838C-746F460CDBF3}" ShortID="1005262734" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<PropertyList>
+										<Property Name="MeterMode" Type="int32" Value="1"/>
+										<Property Name="ReleaseTime" Type="Real32" Value="0.8"/>
+									</PropertyList>
+									<PluginData>
+	<GameParameter Name="METER_VOICE" ID="{03C7B0F4-D01F-4EFE-B5CD-E8D9DB408E43}"/>
+</PluginData>
+								</Effect>
+							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E61B8FB1-2876-4111-B56E-308822E0CF80}"/>
@@ -5884,6 +6013,29 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+								<CustomState Name="" ID="{2038A7D3-4FBC-4804-ABB2-C87C2CD0CBE6}" ShortID="511846380"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+								<CustomState Name="" ID="{CB4CEEE8-350D-4F0D-BB02-EA76E423FBD8}" ShortID="995554691">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="43"/>
+										<Property Name="Lowpass" Type="int16" Value="36"/>
+										<Property Name="Volume" Type="Real64" Value="-10"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

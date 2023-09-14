@@ -42,9 +42,15 @@
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="METER_VOICE" ID="{03C7B0F4-D01F-4EFE-B5CD-E8D9DB408E43}"/>
+							<Value>-3.39098660170524</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="explorationState_03" ID="{468BCFBB-60F5-4DD9-86DC-A34C60F4C27A}"/>
+						<CurrentStateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+						<CurrentStateRef Name="explorationState_01" ID="{7045E0FE-0996-4CD7-AE47-9566E48B2CBF}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

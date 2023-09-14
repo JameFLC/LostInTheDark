@@ -13,7 +13,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -535,8 +535,24 @@
 									<StateGroupInfo>
 										<StateGroupRef Name="MusicState" ID="{BDB9BE8D-9247-4317-89AD-A0D22F99709E}"/>
 									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="DomiOnTheBoard" ID="{FF0785CA-C456-420E-A289-A25C7F1F1707}"/>
+									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnBoard" ID="{C0746978-0E68-4102-83A8-546A539FE410}"/>
+										<CustomState Name="" ID="{B1072BC1-2EEC-415F-A91A-47C46D6EBD1F}" ShortID="52871709"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InTheAir" ID="{3BCA114F-13A7-4A85-AB2C-175F2B3878E5}"/>
+										<CustomState Name="" ID="{10815297-5637-4505-80A2-3DDB7F9B0CAA}" ShortID="426973588">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="58"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
 									<CustomState>
 										<StateRef Name="explorationState_02" ID="{BFB2309B-0EE8-4C4B-A3DC-DD466FAA455B}"/>
 										<CustomState Name="" ID="{7E0930ED-4091-4D16-84E6-BA9B6D61F16B}" ShortID="91294240"/>
@@ -564,6 +580,51 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{3A206C72-4D42-4FD6-A010-0841482098DE}" ShortID="60515319">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="METER_VOICE" ID="{03C7B0F4-D01F-4EFE-B5CD-E8D9DB408E43}" WorkUnitID="{19DFC533-6A34-41EB-8467-3CE115490EB1}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{097D89B7-3E34-4CEB-999E-B84987792016}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-15</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>InvertedSCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-6.75506</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{118EE8E7-381F-4763-B6DF-9A2AE62A3D5C}" ShortID="67672310">
 									<PropertyList>

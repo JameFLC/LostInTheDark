@@ -1,6 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
 	183445069	Play_amb_moon_shadow			\Default Work Unit\DarkForest\Ambs\Play_amb_moon_shadow	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2915031556	DomiOnTheBoard			\Default Work Unit\DomiOnTheBoard	
+
+State	ID	Name	State Group			Notes
+	678879843	InTheAir	DomiOnTheBoard			
+	748895195	None	DomiOnTheBoard			
+	2371555678	OnBoard	DomiOnTheBoard			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	245989875	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs		
+	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
+
+Effect plug-ins	ID	Name	Type				Notes
+	1005262734	Meter (Custom)	Wwise Meter			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19597403	Prem_sfx_ambs_beds_moon_shadow_05	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_05		1922016
 	121221675	Prem_sfx_ambs_beds_moon_shadow_07	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\Prem_sfx_ambs_beds_moon_shadow_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\moon_shadow\beds\beds_moon_shadow\Prem_sfx_ambs_beds_moon_shadow_07		1922016

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{BC7BBF54-FC65-6BD3-9C4C-DF1BB535B808}">
+		<SoundBank Id="816784471" Type="User" Language="SFX" Hash="{53D917E4-387E-BB1C-FA0B-B6C6F4CF5BF4}">
 			<ShortName>amb_serpent_vigne</ShortName>
 			<Path>amb_serpent_vigne.bnk</Path>
 			<Media>
@@ -106,6 +106,11 @@
 					<CachePath>SFX/os_rattle/sfx_ambs_os_serpent_vigne_snake_rattle_11_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1005262734" Name="Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="872436943" Name="Play_serpent_vigne" DurationType="Infinite">
 					<MediaRefs>
@@ -133,13 +138,18 @@
 						<MediaRef Id="911760592"/>
 						<MediaRef Id="969526211"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
 					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{3EEBBC76-CD2C-1996-B384-09419C9ED0E5}">
+		<SoundBank Id="1075972715" Type="User" Language="SFX" Hash="{718776E5-29CE-AC6F-87D3-C0355F1BD6CA}">
 			<ShortName>amb_gate</ShortName>
 			<Path>amb_gate.bnk</Path>
 			<Media>
@@ -152,16 +162,26 @@
 					<CachePath>SFX/sfx_ambs_beds_gate_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1005262734" Name="Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="1087016108" Name="Play_amb_gate" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="678235024"/>
 						<MediaRef Id="953657218"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB21382A-6F2C-7479-56B6-98DA5CDFDDBD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{62FA3CD5-2689-EC23-AD0B-B57E3688E1A1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -193,6 +213,9 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="824751343" Name="METER_VOICE"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1021618141" Name="MusicState">
 					<States>
@@ -202,9 +225,16 @@
 						<State Id="3884274243" Name="explorationState_01"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="2915031556" Name="DomiOnTheBoard">
+					<States>
+						<State Id="678879843" Name="InTheAir"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2371555678" Name="OnBoard"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{C00AAB49-6638-69FD-B367-8C85880B5D5B}">
+		<SoundBank Id="1504343901" Type="User" Language="SFX" Hash="{B2908FF4-9D35-D6B0-D960-39F4333ABF81}">
 			<ShortName>amb_maldirach_swamps</ShortName>
 			<Path>amb_maldirach_swamps.bnk</Path>
 			<Media>
@@ -305,6 +335,11 @@
 					<CachePath>SFX/sfx_ambs_os_maldirach_swamps_birds_chirping_04_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1005262734" Name="Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="1197993866" Name="Play_amb_maldirach" DurationType="Infinite">
 					<MediaRefs>
@@ -333,13 +368,18 @@
 						<MediaRef Id="931234372"/>
 						<MediaRef Id="989703608"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
 					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{1F0C019D-0057-72C8-18EA-7F661049B292}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{C3C96EBC-8DBD-2679-9118-A3C29F1DFB47}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -380,36 +420,71 @@
 					<CachePath>SFX/vx_mort_etoile_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1005262734" Name="Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="523833035" Name="Play_mort_carniviste" DurationType="OneShot" DurationMin="16.827375" DurationMax="16.827375">
 					<MediaRefs>
 						<MediaRef Id="513886967"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3891432493" Name="Play_mort_etoile" DurationType="OneShot" DurationMin="21.167604" DurationMax="21.167604">
 					<MediaRefs>
 						<MediaRef Id="1058606704"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3559343897" Name="Play_mort_marais_hurlant" DurationType="OneShot" DurationMin="20.924812" DurationMax="20.924812">
 					<MediaRefs>
 						<MediaRef Id="368416484"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="474815886" Name="Play_mort_ossekine" DurationType="OneShot" DurationMin="23.678188" DurationMax="23.678188">
 					<MediaRefs>
 						<MediaRef Id="442051355"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="653941082" Name="Play_mort_purulent" DurationType="OneShot" DurationMin="25.275478" DurationMax="25.275478">
 					<MediaRefs>
 						<MediaRef Id="269972835"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="4261279278" Name="Play_mort_reine" DurationType="OneShot" DurationMin="17.707853" DurationMax="17.707853">
 					<MediaRefs>
 						<MediaRef Id="96882531"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="723123881" Name="Play_ui_death_carnivistes" DurationType="OneShot" DurationMin="4.4179583" DurationMax="4.4179583">
 					<MediaRefs>
@@ -436,6 +511,11 @@
 					<MediaRefs>
 						<MediaRef Id="114028583"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
@@ -464,7 +544,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{3EAF195E-3116-BA46-D72C-04DF4A6E315E}">
+		<SoundBank Id="2917579400" Type="User" Language="SFX" Hash="{474EFC90-C63F-680F-3DD6-13E71078B139}">
 			<ShortName>amb_moon_shadow</ShortName>
 			<Path>amb_moon_shadow.bnk</Path>
 			<Media>
@@ -501,6 +581,11 @@
 					<CachePath>SFX/Prem_sfx_ambs_beds_moon_shadow_06_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1005262734" Name="Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="183445069" Name="Play_amb_moon_shadow" DurationType="Infinite">
 					<MediaRefs>
@@ -513,6 +598,11 @@
 						<MediaRef Id="517448208"/>
 						<MediaRef Id="1072963312"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
@@ -551,7 +641,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{4E19046E-63FD-79C2-53FD-EB6BEEFFC8D9}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{B9C8F80B-48DF-89D3-F739-7E43D596FF71}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -592,8 +682,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="824751343" Name="METER_VOICE"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{8429107E-E179-9B56-CDDF-DD742615AEA9}">
+		<SoundBank Id="4239648128" Type="User" Language="SFX" Hash="{09DC2E5B-2741-CB1B-D12F-D15AC69D8F68}">
 			<ShortName>amb_howling_swamps</ShortName>
 			<Path>amb_howling_swamps.bnk</Path>
 			<Media>
@@ -734,6 +827,11 @@
 					<CachePath>SFX/os_ghost/sfx_ambs_os_howling_swamps_ghosts_04_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1005262734" Name="Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="4216740504" Name="Play_howling_swamps" DurationType="Infinite">
 					<MediaRefs>
@@ -772,6 +870,11 @@
 						<MediaRef Id="1011494402"/>
 						<MediaRef Id="1051889097"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1005262734"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="403037658" Name="OS_Reverb_Large"/>
 					</AuxBusRefs>
@@ -779,5 +882,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEE2C9D8-B5B2-3B14-A82F-384965F1FC22}</FileHash>
+	<FileHash>{4013A96C-F973-D927-7040-D7F190A6241E}</FileHash>
 </SoundBanksInfo>

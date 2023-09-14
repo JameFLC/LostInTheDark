@@ -1,6 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1087016108	Play_amb_gate			\Default Work Unit\DarkForest\Ambs\Play_amb_gate	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2915031556	DomiOnTheBoard			\Default Work Unit\DomiOnTheBoard	
+
+State	ID	Name	State Group			Notes
+	678879843	InTheAir	DomiOnTheBoard			
+	748895195	None	DomiOnTheBoard			
+	2371555678	OnBoard	DomiOnTheBoard			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	245989875	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs		
+	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
+
+Effect plug-ins	ID	Name	Type				Notes
+	1005262734	Meter (Custom)	Wwise Meter			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	678235024	vx_gate	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_gate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_gate		10099772
 	953657218	sfx_ambs_beds_gate	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\sfx_ambs_beds_gate_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\gate\beds\sfx_ambs_beds_gate		17290968
