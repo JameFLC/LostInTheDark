@@ -21,6 +21,9 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
 
+Effect plug-ins	ID	Name	Type				Notes
+	1005262734	Meter (Custom)	Wwise Meter			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	96882531	vx_mort_reine	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_mort_reine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_mort_reine		1556050
 	114028583	vx_fin	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\vx_fin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\vx_fin		4182564

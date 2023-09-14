@@ -63,6 +63,11 @@ namespace AK
 
     } // namespace STATES
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID METER_VOICE = 824751343U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

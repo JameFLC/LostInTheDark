@@ -3,12 +3,16 @@ Event	ID	Name			Wwise Object Path	Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
+	2915031556	DomiOnTheBoard			\Default Work Unit\DomiOnTheBoard	
 
 State	ID	Name	State Group			Notes
 	748895195	None	MusicState			
 	3884274240	explorationState_02	MusicState			
 	3884274241	explorationState_03	MusicState			
 	3884274243	explorationState_01	MusicState			
+	678879843	InTheAir	DomiOnTheBoard			
+	748895195	None	DomiOnTheBoard			
+	2371555678	OnBoard	DomiOnTheBoard			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	154298790	explorationState_01	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Plucks_Mystique		
@@ -16,11 +20,15 @@ Custom State	ID	Name	State Group	Owner		Notes
 	370478115	explorationState_02	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Plucks_Mystique		
 	374842745	explorationState_01	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Bass		
 	407100140	explorationState_02	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Bass		
+	426973588	InTheAir	DomiOnTheBoard	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist		
 	545125794	explorationState_01	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Lyre		
 	641887761	explorationState_01	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\MagicCricket_amb		
 	738344052	explorationState_02	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\MagicCricket_amb		
 	833343386	explorationState_01	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Arp_Diva		
 	982727854	explorationState_01	MusicState	\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Pad		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	824751343	METER_VOICE			\Default Work Unit\METER_VOICE	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	61860497	Bass	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\TheDarkForest_Diva(x64)_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainPlaylist\New Music Segment\Bass		38519488

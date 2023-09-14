@@ -13,6 +13,9 @@ Custom State	ID	Name	State Group	Owner		Notes
 	245989875	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs		
 	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
 
+Effect plug-ins	ID	Name	Type				Notes
+	1005262734	Meter (Custom)	Wwise Meter			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16758288	sfx_ambs_beds_bleeding_swamps_liquid_09	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\liquid\sfx_ambs_beds_bleeding_swamps_liquid_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\maldirach_swamps\beds\beds_liquid\sfx_ambs_beds_bleeding_swamps_liquid_09		1922016
 	75834411	sfx_ambs_os_maldirach_swamps_birds_chirping_07	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\sfx_ambs_os_maldirach_swamps_birds_chirping_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\maldirach_swamps\os\os_birds_chirping\sfx_ambs_os_maldirach_swamps_birds_chirping_07		168062

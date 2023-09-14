@@ -11,7 +11,11 @@ State	ID	Name	State Group			Notes
 
 Custom State	ID	Name	State Group	Owner		Notes
 	245989875	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs		
+	369552880	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Ambs\serpent_vigne\os		
 	995554691	InTheAir	DomiOnTheBoard	\Actor-Mixer Hierarchy\Default Work Unit\Voice		
+
+Effect plug-ins	ID	Name	Type				Notes
+	1005262734	Meter (Custom)	Wwise Meter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	52538348	sfx_ambs_os_serpent_vigne_snake_rattle_14	C:\Users\poloc\Documents\GitHub\LostInTheDark\Unity\LostInTheDark\LostInTheDark_WwiseProject\.cache\Windows\SFX\os_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambs\serpent_vigne\os\os_snake_rattle\sfx_ambs_os_serpent_vigne_snake_rattle_14		19912
